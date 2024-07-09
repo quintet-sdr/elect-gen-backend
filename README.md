@@ -65,7 +65,7 @@ cd elect-gen-backend/
 ### Create a Python virtual environment
 
 ```shell
-virtualenv .venv
+virtualenv .venv/
 ```
 
 ### Activate the virtual environment

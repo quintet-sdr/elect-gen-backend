@@ -39,7 +39,7 @@ To run the application, execute the gui.py script:
 python gui.py
 ```
 
-### 💡 Example Files
+### 🧩 Example Files
 
 Example input files can be found in the `examples` directory. The executable file for the project can be found in the `dist` directory. 
 

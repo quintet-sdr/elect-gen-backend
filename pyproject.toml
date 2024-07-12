@@ -1,5 +1,4 @@
 [tool.poetry]
-# package-mode = false
 name = "Elect.Gen"
 version = "0.1.0"
 description = "A distribution system to assign students to electives."
@@ -21,10 +20,13 @@ dev = "scripts:dev"
 start = "scripts:start"
 lint = "scripts:lint"
 format = "scripts:format"
+tmp = "src.tmp:main"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = "^0.111.0"
+openpyxl = "^3.1.5"
+pandas = "^2.2.2"
 typed-argument-parser = "^1.10.1"
 uvicorn = "^0.30.1"
 

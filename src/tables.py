@@ -30,13 +30,14 @@ def parse_students(df: DataFrame) -> list[Student]:
     return list(map(Student.model_validate, df.to_dict("records")))  # pyright: ignore[reportUnknownArgumentType, reportUnknownMemberType]
 
 
-def dump_courses_df(df: DataFrame) -> list[dict[str, str | int]]:
+def dump_courses_df(df: DataFrame) -> list[Course]:
     # TODO: type validation.
 
     df = df.rename(
         columns={
-            "Course ID": "id",
+            "Code Name": "id",
             "Quota": "quota",
+            "Type": "type",
         }
     )
 

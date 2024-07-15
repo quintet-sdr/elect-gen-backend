@@ -14,29 +14,34 @@ class CourseType(str, Enum):
     TECH = "tech"
 
 
-CourseId = NewType("CourseId", str)
+CourseCodename = NewType("CourseCodename", str)
 
 
 class Course(BaseModel):
-    id: CourseId
+    id: NonNegativeInt
+    codename: CourseCodename
     type: CourseType
     full_name: str
     short_name: str
     description: str
     instructor: str
-    quota: NonNegativeInt
+    min_overall: int
+    max_overall: int
+    low_in_group: int
+    high_in_group: int
+    max_in_group: int
 
 
 class Student(BaseModel):
     email: EmailStr
     gpa: NonNegativeFloat = 0.0
-    priority_1: CourseId
-    priority_2: CourseId
-    priority_3: CourseId
-    priority_4: CourseId
-    priority_5: CourseId
+    priority_1: CourseCodename
+    priority_2: CourseCodename
+    priority_3: CourseCodename
+    priority_4: CourseCodename
+    priority_5: CourseCodename
 
 
 class Distribution(BaseModel):
     student: EmailStr
-    course: CourseId
+    course: CourseCodename

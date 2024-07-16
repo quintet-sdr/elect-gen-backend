@@ -1,7 +1,7 @@
 from pandas import DataFrame  # pyright: ignore[reportMissingTypeStubs]
 from pydantic import BaseModel
 
-from src.models import Course, Student
+from db.schemas import Course, Student
 
 
 def courses_to_df(courses: list[Course]) -> DataFrame:

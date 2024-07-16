@@ -65,7 +65,7 @@ cd elect-gen-backend/
 ### Create a Python virtual environment
 
 ```shell
-virtualenv .venv/
+python -m venv .venv/
 ```
 
 ### Activate the virtual environment
@@ -100,14 +100,14 @@ To launch the back end, you need to run the `start` Poetry script. It requires
 you to enter the path to a directory containing [Elect.Gen Core](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core).
 
 ```console
-poetry run start ../services/core/
+poetry run start ../core/
 ```
 
 You can also start a development server with the `dev` script, which enables
 hot reload.
 
 ```console
-poetry run dev ../services/core/
+poetry run dev ../core/
 ```
 
 Both commands support additional CLI arguments.

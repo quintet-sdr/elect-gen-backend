@@ -2,6 +2,7 @@ import subprocess
 import sys
 from pathlib import Path
 from typing import Never
+from os import path
 
 from src.cli import Args
 
@@ -50,5 +51,10 @@ def execute(args: list[str]) -> None | Never:
         sys.exit(status)
 
 
-def venv(exe: str, venv_path: str = ".venv") -> str:
-    return str(Path(venv_path) / "bin" / exe)
+def venv(exe: str, venv_path: Path = Path(".venv")) -> str:
+    if path.exists(venv_path / "bin"):
+        return str(venv_path / "bin" / exe)
+    elif path.exists(venv_path / "Scripts"):
+        return str(venv_path / "Scripts" / exe)
+    else:
+        raise RuntimeError("No bin directory found in the venv dir")

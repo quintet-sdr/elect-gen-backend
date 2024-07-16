@@ -18,7 +18,6 @@ CourseCodename = NewType("CourseCodename", str)
 
 
 class CourseBase(BaseModel):
-    id: NonNegativeFloat
     codename: CourseCodename
     type: CourseType
     full_name: str
@@ -58,3 +57,18 @@ class StudentCreate(StudentBase):
 class Student(StudentBase):
     class Config:
         orm_mode = True
+
+
+class DistributionBase(BaseModel):
+    student_email: str
+    course_codename: CourseCodename
+
+
+class DistributionCreate(DistributionBase):
+    pass
+
+
+class Distribution(DistributionBase):
+    class Config:
+        orm_mode = True
+

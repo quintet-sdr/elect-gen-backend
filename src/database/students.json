@@ -1,0 +1,5141 @@
+[
+  {
+    "email": "b.hopkins@innopolis.university",
+    "gpa": "2.73849248928948",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "lambda-calculus",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "c.morrow@innopolis.university",
+    "gpa": "3.78020381035839",
+    "priority_1": "lambda-calculus",
+    "priority_2": "3d-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "prototype-intro",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "d.snyder@innopolis.university",
+    "gpa": "5",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "learn-for-search",
+    "priority_4": "neuro-intro",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "e.phelps@innopolis.university",
+    "gpa": "4.9629629629629630",
+    "priority_1": "mlops-eng",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "f.hogan@innopolis.university",
+    "gpa": "4.3703703703703704",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "g.stanley@innopolis.university",
+    "gpa": "4.3703703703703704",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "prototype-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "h.bradshaw@innopolis.university",
+    "gpa": "4.3703703703703704",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "i.juarez@innopolis.university",
+    "gpa": "4.3703703703703704",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "lambda-calculus",
+    "priority_4": "front-end-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "j.cisneros@innopolis.university",
+    "gpa": "4.3571428571428571",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "neuro-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "k.nash@innopolis.university",
+    "gpa": "4.3414634146341463",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "l.roberts@innopolis.university",
+    "gpa": "4.3333333333333333",
+    "priority_1": "learn-for-search",
+    "priority_2": "neuro-intro",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "m.macias@innopolis.university",
+    "gpa": "4.3333333333333333",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "brand-market",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "n.hines@innopolis.university",
+    "gpa": "4.3333333333333333",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "o.schaefer@innopolis.university",
+    "gpa": "4.3333333333333333",
+    "priority_1": "learn-for-search",
+    "priority_2": "brand-market",
+    "priority_3": "mlops-eng",
+    "priority_4": "front-end-dev",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "p.cole@innopolis.university",
+    "gpa": "4.9285714285714286",
+    "priority_1": "mlops-eng",
+    "priority_2": "computing-arch",
+    "priority_3": "lambda-calculus",
+    "priority_4": "learn-for-search",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "q.valenzuela@innopolis.university",
+    "gpa": "4.3333333333333333",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "brand-market",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "r.oneal@innopolis.university",
+    "gpa": "4.3333333333333333",
+    "priority_1": "neuro-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "brand-market",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "s.reid@innopolis.university",
+    "gpa": "4.3214285714285714",
+    "priority_1": "neuro-intro",
+    "priority_2": "learn-for-search",
+    "priority_3": "3d-intro",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "t.goodwin@innopolis.university",
+    "gpa": "4.3214285714285714",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "u.mcclain@innopolis.university",
+    "gpa": "4.3103448275862069",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "v.moyer@innopolis.university",
+    "gpa": "4.2962962962962963",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "lambda-calculus",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "w.robbins@innopolis.university",
+    "gpa": "4.2962962962962963",
+    "priority_1": "brand-market",
+    "priority_2": "mlops-eng",
+    "priority_3": "front-end-dev",
+    "priority_4": "neuro-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "x.nelson@innopolis.university",
+    "gpa": "4.2962962962962963",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "y.hancock@innopolis.university",
+    "gpa": "4.2962962962962963",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "lambda-calculus",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "z.massey@innopolis.university",
+    "gpa": "4.2962962962962963",
+    "priority_1": "mlops-eng",
+    "priority_2": "front-end-dev",
+    "priority_3": "learn-for-search",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "a.ross@innopolis.university",
+    "gpa": "4.9259259259259259",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "brand-market",
+    "priority_4": "front-end-dev",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "b.hensley@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "neuro-intro",
+    "priority_3": "learn-for-search",
+    "priority_4": "mlops-eng",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "c.caldwell@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "learn-for-search",
+    "priority_4": "neuro-intro",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "d.giles@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "neuro-intro",
+    "priority_2": "learn-for-search",
+    "priority_3": "3d-intro",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "e.rosales@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "brand-market",
+    "priority_4": "front-end-dev",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "f.mathis@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "mlops-eng",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "g.collier@innopolis.university",
+    "gpa": "4.2682926829268293",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "h.odom@innopolis.university",
+    "gpa": "4.2592592592592593",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "i.woodard@innopolis.university",
+    "gpa": "4.2592592592592593",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "prototype-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "j.dorsey@innopolis.university",
+    "gpa": "4.2592592592592593",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "k.mckee@innopolis.university",
+    "gpa": "4.2500000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "lambda-calculus",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "l.wiley@innopolis.university",
+    "gpa": "4.9259259259259259",
+    "priority_1": "learn-for-search",
+    "priority_2": "neuro-intro",
+    "priority_3": "mlops-eng",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "m.rivers@innopolis.university",
+    "gpa": "4.2500000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "n.decker@innopolis.university",
+    "gpa": "4.2413793103448276",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "o.riddle@innopolis.university",
+    "gpa": "4.2413793103448276",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "p.cannon@innopolis.university",
+    "gpa": "4.2333333333333333",
+    "priority_1": "neuro-intro",
+    "priority_2": "brand-market",
+    "priority_3": "prototype-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "q.krause@innopolis.university",
+    "gpa": "4.2258064516129032",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "r.barr@innopolis.university",
+    "gpa": "4.2222222222222222",
+    "priority_1": "neuro-intro",
+    "priority_2": "mlops-eng",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "s.matthews@innopolis.university",
+    "gpa": "4.2222222222222222",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "neuro-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "t.morton@innopolis.university",
+    "gpa": "4.2222222222222222",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "prototype-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "u.peters@innopolis.university",
+    "gpa": "4.2222222222222222",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "mlops-eng",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "v.kane@innopolis.university",
+    "gpa": "4.2222222222222222",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "w.valdez@innopolis.university",
+    "gpa": "4.9259259259259259",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "x.becker@innopolis.university",
+    "gpa": "4.2142857142857143",
+    "priority_1": "brand-market",
+    "priority_2": "mlops-eng",
+    "priority_3": "front-end-dev",
+    "priority_4": "neuro-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "y.travis@innopolis.university",
+    "gpa": "4.2142857142857143",
+    "priority_1": "3d-intro",
+    "priority_2": "neuro-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "z.wallace@innopolis.university",
+    "gpa": "4.2142857142857143",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "a.brady@innopolis.university",
+    "gpa": "4.2142857142857143",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "b.harding@innopolis.university",
+    "gpa": "4.2068965517241379",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "neuro-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "c.beard@innopolis.university",
+    "gpa": "4.2068965517241379",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "mlops-eng",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "d.sweeney@innopolis.university",
+    "gpa": "4.1851851851851852",
+    "priority_1": "neuro-intro",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "e.baxter@innopolis.university",
+    "gpa": "4.1851851851851852",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "neuro-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "f.ayers@innopolis.university",
+    "gpa": "4.1851851851851852",
+    "priority_1": "front-end-dev",
+    "priority_2": "mlops-eng",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "g.rasmussen@innopolis.university",
+    "gpa": "4.1785714285714286",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "neuro-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "h.hurst@innopolis.university",
+    "gpa": "4.8888888888888889",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "neuro-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "i.jacobson@innopolis.university",
+    "gpa": "4.1785714285714286",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "brand-market",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "j.gonzales@innopolis.university",
+    "gpa": "4.1724137931034483",
+    "priority_1": "prototype-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "k.shelby@innopolis.university",
+    "gpa": "4.1666666666666667",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "l.wilkins@innopolis.university",
+    "gpa": "4.1481481481481481",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "m.morrison@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "n.shields@innopolis.university",
+    "gpa": "4.1379310344827586",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "o.rowe@innopolis.university",
+    "gpa": "4.1379310344827586",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "p.baldwin@innopolis.university",
+    "gpa": "4.1111111111111111",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "q.hayden@innopolis.university",
+    "gpa": "4.1111111111111111",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "prototype-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "r.stone@innopolis.university",
+    "gpa": "4.1111111111111111",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "mlops-eng",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "s.cooley@innopolis.university",
+    "gpa": "4.8888888888888889",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "neuro-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "t.drake@innopolis.university",
+    "gpa": "4.1111111111111111",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "u.craig@innopolis.university",
+    "gpa": "4.1071428571428571",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "neuro-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "v.larson@innopolis.university",
+    "gpa": "4.0740740740740741",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "mlops-eng",
+    "priority_4": "learn-for-search",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "w.santana@innopolis.university",
+    "gpa": "4.0740740740740741",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "x.golden@innopolis.university",
+    "gpa": "4.0740740740740741",
+    "priority_1": "mlops-eng",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "y.benson@innopolis.university",
+    "gpa": "4.0740740740740741",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "z.randolph@innopolis.university",
+    "gpa": "4.0689655172413793",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "a.ford@innopolis.university",
+    "gpa": "4.0666666666666667",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "prototype-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "b.lowe@innopolis.university",
+    "gpa": "4.0357142857142857",
+    "priority_1": "computing-arch",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "c.lucas@innopolis.university",
+    "gpa": "4.8888888888888889",
+    "priority_1": "mlops-eng",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "d.sharp@innopolis.university",
+    "gpa": "4.0333333333333333",
+    "priority_1": "learn-for-search",
+    "priority_2": "3d-intro",
+    "priority_3": "mlops-eng",
+    "priority_4": "neuro-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "e.morales@innopolis.university",
+    "gpa": "4.0322580645161290",
+    "priority_1": "neuro-intro",
+    "priority_2": "learn-for-search",
+    "priority_3": "lambda-calculus",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "f.clemons@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "g.merritt@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "h.maddox@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "i.holmes@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "j.rich@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "k.castaneda@innopolis.university",
+    "gpa": "3.9677419354838710",
+    "priority_1": "neuro-intro",
+    "priority_2": "learn-for-search",
+    "priority_3": "3d-intro",
+    "priority_4": "mlops-eng",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "l.webster@innopolis.university",
+    "gpa": "3.9666666666666667",
+    "priority_1": "brand-market",
+    "priority_2": "learn-for-search",
+    "priority_3": "mlops-eng",
+    "priority_4": "neuro-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "m.cantu@innopolis.university",
+    "gpa": "3.9655172413793103",
+    "priority_1": "neuro-intro",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "n.conway@innopolis.university",
+    "gpa": "4.8888888888888889",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "o.fry@innopolis.university",
+    "gpa": "3.9642857142857143",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "p.wilkinson@innopolis.university",
+    "gpa": "3.9642857142857143",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "q.burch@innopolis.university",
+    "gpa": "3.9629629629629630",
+    "priority_1": "brand-market",
+    "priority_2": "neuro-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "r.mccall@innopolis.university",
+    "gpa": "3.9629629629629630",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "brand-market",
+    "priority_4": "learn-for-search",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "s.gilliam@innopolis.university",
+    "gpa": "3.9333333333333333",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "t.mclean@innopolis.university",
+    "gpa": "3.9333333333333333",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "u.hunt@innopolis.university",
+    "gpa": "3.9310344827586207",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "prototype-intro",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "v.evans@innopolis.university",
+    "gpa": "3.9310344827586207",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "w.hawkins@innopolis.university",
+    "gpa": "3.9310344827586207",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "x.mcintosh@innopolis.university",
+    "gpa": "3.9285714285714286",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "y.cummings@innopolis.university",
+    "gpa": "4.8888888888888889",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "z.mayo@innopolis.university",
+    "gpa": "3.9285714285714286",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "mlops-eng",
+    "priority_4": "learn-for-search",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "a.faulkner@innopolis.university",
+    "gpa": "3.9090909090909091",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "neuro-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "b.conley@innopolis.university",
+    "gpa": "3.9000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "c.glover@innopolis.university",
+    "gpa": "3.8965517241379310",
+    "priority_1": "mlops-eng",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "robotics-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "d.everett@innopolis.university",
+    "gpa": "3.8965517241379310",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "e.holland@innopolis.university",
+    "gpa": "3.8928571428571429",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "mlops-eng",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "f.schaefer@innopolis.university",
+    "gpa": "3.8888888888888889",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "lambda-calculus",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "g.harmon@innopolis.university",
+    "gpa": "3.8888888888888889",
+    "priority_1": "prototype-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "robotics-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "h.morris@innopolis.university",
+    "gpa": "3.8787878787878788",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "i.hanson@innopolis.university",
+    "gpa": "3.8750000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "neuro-intro",
+    "priority_4": "brand-market",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "j.wells@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "computing-arch",
+    "priority_3": "3d-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "k.moody@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "computing-arch",
+    "priority_2": "robotics-intro",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "l.ellis@innopolis.university",
+    "gpa": "3.8709677419354839",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "m.bolton@innopolis.university",
+    "gpa": "3.8620689655172414",
+    "priority_1": "3d-intro",
+    "priority_2": "prototype-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "n.cantu@innopolis.university",
+    "gpa": "3.8620689655172414",
+    "priority_1": "mlops-eng",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "neuro-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "o.daniels@innopolis.university",
+    "gpa": "3.8387096774193548",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "neuro-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "p.bright@innopolis.university",
+    "gpa": "3.8275862068965517",
+    "priority_1": "mlops-eng",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "front-end-dev",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "q.chang@innopolis.university",
+    "gpa": "3.8275862068965517",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "prototype-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "r.finley@innopolis.university",
+    "gpa": "3.8275862068965517",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "prototype-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "s.carpenter@innopolis.university",
+    "gpa": "3.8000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "neuro-intro",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "t.horn@innopolis.university",
+    "gpa": "3.8000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "u.hinton@innopolis.university",
+    "gpa": "3.8000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "computing-arch",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "v.conway@innopolis.university",
+    "gpa": "4.8518518518518519",
+    "priority_1": "neuro-intro",
+    "priority_2": "computing-arch",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "w.massey@innopolis.university",
+    "gpa": "3.7857142857142857",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "x.merritt@innopolis.university",
+    "gpa": "3.7812500000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "front-end-dev",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "y.sweeney@innopolis.university",
+    "gpa": "3.7666666666666667",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "z.frost@innopolis.university",
+    "gpa": "3.7333333333333333",
+    "priority_1": "lambda-calculus",
+    "priority_2": "3d-intro",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "computing-arch",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "a.york@innopolis.university",
+    "gpa": "3.7241379310344828",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "b.curry@innopolis.university",
+    "gpa": "3.7241379310344828",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "c.gilbert@innopolis.university",
+    "gpa": "3.7241379310344828",
+    "priority_1": "robotics-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "robotics-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "d.cantrell@innopolis.university",
+    "gpa": "3.7187500000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "e.bush@innopolis.university",
+    "gpa": "3.7142857142857143",
+    "priority_1": "prototype-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "robotics-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "f.hood@innopolis.university",
+    "gpa": "3.7096774193548387",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "g.stuart@innopolis.university",
+    "gpa": "4.8518518518518519",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "front-end-dev",
+    "priority_4": "lambda-calculus",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "h.boyd@innopolis.university",
+    "gpa": "3.7096774193548387",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "i.poole@innopolis.university",
+    "gpa": "3.7058823529411765",
+    "priority_1": "computing-arch",
+    "priority_2": "prototype-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "j.lamb@innopolis.university",
+    "gpa": "3.7000000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "front-end-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "k.simpson@innopolis.university",
+    "gpa": "3.6896551724137931",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "mlops-eng",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "l.vaughn@innopolis.university",
+    "gpa": "3.6875000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "prototype-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "m.david@innopolis.university",
+    "gpa": "3.6875000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "neuro-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "n.rosales@innopolis.university",
+    "gpa": "3.6875000000000000",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "o.hale@innopolis.university",
+    "gpa": "3.6875000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "prototype-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "p.martin@innopolis.university",
+    "gpa": "3.6857142857142857",
+    "priority_1": "learn-for-search",
+    "priority_2": "brand-market",
+    "priority_3": "mlops-eng",
+    "priority_4": "prototype-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "q.dudley@innopolis.university",
+    "gpa": "3.6774193548387097",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "lambda-calculus",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "r.duffy@innopolis.university",
+    "gpa": "4.8518518518518519",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "lambda-calculus",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "s.pitts@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "t.casey@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "u.leach@innopolis.university",
+    "gpa": "3.5937500000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "computing-arch",
+    "priority_3": "neuro-intro",
+    "priority_4": "brand-market",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "v.booth@innopolis.university",
+    "gpa": "3.5454545454545455",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "w.haynes@innopolis.university",
+    "gpa": "3.5454545454545455",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "x.frye@innopolis.university",
+    "gpa": "3.5333333333333333",
+    "priority_1": "brand-market",
+    "priority_2": "prototype-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "y.mooney@innopolis.university",
+    "gpa": "3.5312500000000000",
+    "priority_1": "neuro-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "z.gross@innopolis.university",
+    "gpa": "3.5238095238095238",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "a.gibson@innopolis.university",
+    "gpa": "3.5161290322580645",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "b.newman@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "electro-logic-intro",
+    "priority_2": "prototype-intro",
+    "priority_3": "Deep Dive into system design",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "c.oneil@innopolis.university",
+    "gpa": "4.8518518518518519",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "d.garrison@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "e.sweeney@innopolis.university",
+    "gpa": "3.4848484848484848",
+    "priority_1": "brand-market",
+    "priority_2": "neuro-intro",
+    "priority_3": "learn-for-search",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "f.melton@innopolis.university",
+    "gpa": "3.4705882352941176",
+    "priority_1": "neuro-intro",
+    "priority_2": "mlops-eng",
+    "priority_3": "3d-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "g.mccann@innopolis.university",
+    "gpa": "3.4545454545454545",
+    "priority_1": "prototype-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "robotics-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "h.bridges@innopolis.university",
+    "gpa": "3.4375000000000000",
+    "priority_1": "computing-arch",
+    "priority_2": "front-end-dev",
+    "priority_3": "prototype-intro",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "i.briggs@innopolis.university",
+    "gpa": "3.4193548387096774",
+    "priority_1": "brand-market",
+    "priority_2": "robotics-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "j.roberts@innopolis.university",
+    "gpa": "3.3928571428571429",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "prototype-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "k.hickman@innopolis.university",
+    "gpa": "3.3611111111111111",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "l.franklin@innopolis.university",
+    "gpa": "3.3333333333333333",
+    "priority_1": "prototype-intro",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "m.walters@innopolis.university",
+    "gpa": "4.8518518518518519",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "3d-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "n.goodman@innopolis.university",
+    "gpa": "3.2777777777777778",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "prototype-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "o.robinson@innopolis.university",
+    "gpa": "3.2612612612612613",
+    "priority_1": "front-end-dev",
+    "priority_2": "prototype-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "p.maldonado@innopolis.university",
+    "gpa": "3.2352941176470588",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "q.burns@innopolis.university",
+    "gpa": "3.1382978723404255",
+    "priority_1": "mlops-eng",
+    "priority_2": "electro-logic-intro",
+    "priority_3": "learn-for-search",
+    "priority_4": "neuro-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "r.escobar@innopolis.university",
+    "gpa": "3.1052631578947368",
+    "priority_1": "brand-market",
+    "priority_2": "brand-market",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "s.santiago@innopolis.university",
+    "gpa": "3.0975609756097561",
+    "priority_1": "neuro-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "t.hodges@innopolis.university",
+    "gpa": "3.0800000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "computing-arch",
+    "priority_3": "3d-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "u.tucker@innopolis.university",
+    "gpa": "3.0500000000000000",
+    "priority_1": "neuro-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "v.holloway@innopolis.university",
+    "gpa": "4.8518518518518519",
+    "priority_1": "computing-arch",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "3d-intro",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "w.winters@innopolis.university",
+    "gpa": "3.0250000000000000",
+    "priority_1": "mlops-eng",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "x.barry@innopolis.university",
+    "gpa": "3.0000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "learn-for-search",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "y.mullins@innopolis.university",
+    "gpa": "3.0000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "prototype-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "z.bowen@innopolis.university",
+    "gpa": "2.8636363636363636",
+    "priority_1": "mlops-eng",
+    "priority_2": "neuro-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "a.baxter@innopolis.university",
+    "gpa": "2.8636363636363636",
+    "priority_1": "3d-intro",
+    "priority_2": "computing-arch",
+    "priority_3": "brand-market",
+    "priority_4": "prototype-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "b.cook@innopolis.university",
+    "gpa": "2.8478260869565217",
+    "priority_1": "mlops-eng",
+    "priority_2": "electro-logic-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "Deep Dive into system design"
+  },
+  {
+    "email": "c.holcomb@innopolis.university",
+    "gpa": "2.8409090909090909",
+    "priority_1": "brand-market",
+    "priority_2": "learn-for-search",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "d.snow@innopolis.university",
+    "gpa": "2.8333333333333333",
+    "priority_1": "prototype-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "learn-for-search",
+    "priority_4": "3d-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "e.daugherty@innopolis.university",
+    "gpa": "4.8333333333333333",
+    "priority_1": "3d-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "f.bonner@innopolis.university",
+    "gpa": "2.8222222222222222",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "g.prince@innopolis.university",
+    "gpa": "2.8222222222222222",
+    "priority_1": "flutter-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "h.roth@innopolis.university",
+    "gpa": "2.8039215686274510",
+    "priority_1": "neuro-intro",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "i.maynard@innopolis.university",
+    "gpa": "2.7872340425531915",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "j.weber@innopolis.university",
+    "gpa": "2.7416666666666667",
+    "priority_1": "front-end-dev",
+    "priority_2": "computing-arch",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "k.acevedo@innopolis.university",
+    "gpa": "2.6538461538461538",
+    "priority_1": "mlops-eng",
+    "priority_2": "neuro-intro",
+    "priority_3": "mechanical-intro",
+    "priority_4": "mechanical-intro",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "l.solis@innopolis.university",
+    "gpa": "2.6530612244897959",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "lambda-calculus",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "m.clemons@innopolis.university",
+    "gpa": "2.6111111111111111",
+    "priority_1": "neuro-intro",
+    "priority_2": "mlops-eng",
+    "priority_3": "learn-for-search",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "n.fleming@innopolis.university",
+    "gpa": "2.6111111111111111",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "robotics-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "o.atkinson@innopolis.university",
+    "gpa": "4.8214285714285714",
+    "priority_1": "3d-intro",
+    "priority_2": "neuro-intro",
+    "priority_3": "brand-market",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "p.barry@innopolis.university",
+    "gpa": "4.8148148148148148",
+    "priority_1": "mlops-eng",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "front-end-dev",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "q.andrews@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "mlops-eng",
+    "priority_3": "front-end-dev",
+    "priority_4": "learn-for-search",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "r.wilson@innopolis.university",
+    "gpa": "4.8148148148148148",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "s.dudley@innopolis.university",
+    "gpa": "4.8148148148148148",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "neuro-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "t.watson@innopolis.university",
+    "gpa": "4.8148148148148148",
+    "priority_1": "computing-arch",
+    "priority_2": "prototype-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "u.frost@innopolis.university",
+    "gpa": "4.7931034482758621",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "v.singleton@innopolis.university",
+    "gpa": "4.7857142857142857",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "w.ayers@innopolis.university",
+    "gpa": "4.7857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "prototype-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "x.kidd@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "learn-for-search",
+    "priority_2": "neuro-intro",
+    "priority_3": "mlops-eng",
+    "priority_4": "brand-market",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "y.bolton@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "3d-intro",
+    "priority_4": "lambda-calculus",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "z.hutchinson@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "neuro-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "a.garcia@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "mlops-eng",
+    "priority_4": "learn-for-search",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "b.norman@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "mlops-eng",
+    "priority_2": "neuro-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "c.mcdonald@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "learn-for-search",
+    "priority_2": "neuro-intro",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "d.glenn@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "3d-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "learn-for-search",
+    "priority_4": "brand-market",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "e.russell@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "mlops-eng",
+    "priority_2": "neuro-intro",
+    "priority_3": "learn-for-search",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "f.gallegos@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "brand-market",
+    "priority_4": "robotics-intro",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "g.mckay@innopolis.university",
+    "gpa": "4.7777777777777778",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "prototype-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "h.frank@innopolis.university",
+    "gpa": "4.7500000000000000",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "i.caldwell@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "j.holmes@innopolis.university",
+    "gpa": "4.7037037037037037",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "k.roberts@innopolis.university",
+    "gpa": "4.7037037037037037",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "prototype-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "l.fitzpatrick@innopolis.university",
+    "gpa": "4.7037037037037037",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "neuro-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "m.sosa@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "n.collier@innopolis.university",
+    "gpa": "4.7037037037037037",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "o.mcmillan@innopolis.university",
+    "gpa": "4.7037037037037037",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "robotics-intro",
+    "priority_4": "brand-market",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "p.ayala@innopolis.university",
+    "gpa": "4.7037037037037037",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "learn-for-search",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "q.harrington@innopolis.university",
+    "gpa": "4.6785714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "brand-market",
+    "priority_4": "learn-for-search",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "r.sellers@innopolis.university",
+    "gpa": "4.6666666666666667",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "neuro-intro",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "s.cunningham@innopolis.university",
+    "gpa": "4.6666666666666667",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "t.valenzuela@innopolis.university",
+    "gpa": "4.6666666666666667",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "front-end-dev",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "u.baldwin@innopolis.university",
+    "gpa": "4.6428571428571429",
+    "priority_1": "robotics-intro",
+    "priority_2": "learn-for-search",
+    "priority_3": "brand-market",
+    "priority_4": "mlops-eng",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "v.bennett@innopolis.university",
+    "gpa": "4.6428571428571429",
+    "priority_1": "electro-logic-intro",
+    "priority_2": "mlops-eng",
+    "priority_3": "learn-for-search",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "w.hodge@innopolis.university",
+    "gpa": "4.6296296296296296",
+    "priority_1": "prototype-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "learn-for-search",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "x.boyd@innopolis.university",
+    "gpa": "4.9629629629629630",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "y.sampson@innopolis.university",
+    "gpa": "4.6206896551724138",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "prototype-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "z.dorsey@innopolis.university",
+    "gpa": "4.5925925925925926",
+    "priority_1": "learn-for-search",
+    "priority_2": "neuro-intro",
+    "priority_3": "mlops-eng",
+    "priority_4": "lambda-calculus",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "a.stevens@innopolis.university",
+    "gpa": "4.5925925925925926",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "robotics-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "b.mclaughlin@innopolis.university",
+    "gpa": "4.5925925925925926",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "learn-for-search",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "c.sims@innopolis.university",
+    "gpa": "4.5925925925925926",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "mlops-eng",
+    "priority_4": "neuro-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "d.potter@innopolis.university",
+    "gpa": "4.5925925925925926",
+    "priority_1": "neuro-intro",
+    "priority_2": "brand-market",
+    "priority_3": "learn-for-search",
+    "priority_4": "mlops-eng",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "e.whitehead@innopolis.university",
+    "gpa": "4.5555555555555556",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "robotics-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "f.bolton@innopolis.university",
+    "gpa": "4.5357142857142857",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "g.riddle@innopolis.university",
+    "gpa": "4.5185185185185185",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "h.pace@innopolis.university",
+    "gpa": "4.5185185185185185",
+    "priority_1": "brand-market",
+    "priority_2": "neuro-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "i.sparks@innopolis.university",
+    "gpa": "4.9629629629629630",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "mlops-eng",
+    "priority_4": "brand-market",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "j.brady@innopolis.university",
+    "gpa": "4.5185185185185185",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "neuro-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "k.wheeler@innopolis.university",
+    "gpa": "4.5185185185185185",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "mlops-eng",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "l.glass@innopolis.university",
+    "gpa": "4.5185185185185185",
+    "priority_1": "computing-arch",
+    "priority_2": "3d-intro",
+    "priority_3": "robotics-intro",
+    "priority_4": "brand-market",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "m.townsend@innopolis.university",
+    "gpa": "4.5185185185185185",
+    "priority_1": "neuro-intro",
+    "priority_2": "mlops-eng",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "n.kane@innopolis.university",
+    "gpa": "4.5000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "o.cooper@innopolis.university",
+    "gpa": "4.5000000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "p.conner@innopolis.university",
+    "gpa": "4.5000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "q.browning@innopolis.university",
+    "gpa": "4.4827586206896552",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "r.morrow@innopolis.university",
+    "gpa": "4.4814814814814815",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "s.singleton@innopolis.university",
+    "gpa": "4.4814814814814815",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "mlops-eng",
+    "priority_4": "learn-for-search",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "t.fulton@innopolis.university",
+    "gpa": "4.9629629629629630",
+    "priority_1": "mlops-eng",
+    "priority_2": "neuro-intro",
+    "priority_3": "brand-market",
+    "priority_4": "learn-for-search",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "u.brock@innopolis.university",
+    "gpa": "4.4814814814814815",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "mlops-eng",
+    "priority_4": "computing-arch",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "v.pacheco@innopolis.university",
+    "gpa": "4.4814814814814815",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "w.hardy@innopolis.university",
+    "gpa": "4.4814814814814815",
+    "priority_1": "mlops-eng",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "x.castro@innopolis.university",
+    "gpa": "4.4814814814814815",
+    "priority_1": "robotics-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "robotics-intro",
+    "priority_4": "mlops-eng",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "y.bond@innopolis.university",
+    "gpa": "4.4516129032258065",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "neuro-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "z.hurst@innopolis.university",
+    "gpa": "4.4482758620689655",
+    "priority_1": "neuro-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "a.sullivan@innopolis.university",
+    "gpa": "4.4482758620689655",
+    "priority_1": "neuro-intro",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "learn-for-search"
+  },
+  {
+    "email": "b.stuart@innopolis.university",
+    "gpa": "4.4444444444444444",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "mlops-eng",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "c.hancock@innopolis.university",
+    "gpa": "4.4333333333333333",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "lambda-calculus",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "d.gilbert@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "mlops-eng",
+    "priority_2": "brand-market",
+    "priority_3": "mlops-eng",
+    "priority_4": "mlops-eng",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "e.sosa@innopolis.university",
+    "gpa": "4.9629629629629630",
+    "priority_1": "brand-market",
+    "priority_2": "computing-arch",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "f.owen@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "neuro-intro",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "g.roy@innopolis.university",
+    "gpa": "4.4074074074074074",
+    "priority_1": "mlops-eng",
+    "priority_2": "learn-for-search",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "h.cochran@innopolis.university",
+    "gpa": "4.4074074074074074",
+    "priority_1": "prototype-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "mechanical-intro",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "i.steele@innopolis.university",
+    "gpa": "4.4074074074074074",
+    "priority_1": "prototype-intro",
+    "priority_2": "learn-for-search",
+    "priority_3": "computing-arch",
+    "priority_4": "3d-intro",
+    "priority_5": "mlops-eng"
+  },
+  {
+    "email": "j.norman@innopolis.university",
+    "gpa": "4.4074074074074074",
+    "priority_1": "robotics-intro",
+    "priority_2": "prototype-intro",
+    "priority_3": "neuro-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "k.blake@innopolis.university",
+    "gpa": "4.4074074074074074",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "mlops-eng",
+    "priority_5": "prototype-intro"
+  },
+  {
+    "email": "l.tyson@innopolis.university",
+    "gpa": "4.4074074074074074",
+    "priority_1": "learn-for-search",
+    "priority_2": "mlops-eng",
+    "priority_3": "robotics-intro",
+    "priority_4": "brand-market",
+    "priority_5": "neuro-intro"
+  },
+  {
+    "email": "m.andrews@innopolis.university",
+    "gpa": "4.4074074074074074",
+    "priority_1": "learn-for-search",
+    "priority_2": "neuro-intro",
+    "priority_3": "mlops-eng",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "b.johnson@innopolis.university",
+    "gpa": "3.2500000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "computing-arch",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "flutter-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "c.williams@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "lambda-calculus",
+    "priority_3": "computing-arch",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "d.brown@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "e.jones@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "robotics-intro",
+    "priority_2": "lambda-calculus",
+    "priority_3": "front-end-dev",
+    "priority_4": "mechanical-intro",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "f.garcia@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "brand-market",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "g.miller@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "mechanical-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "h.davis@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "robotics-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "i.rodriguez@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "j.martinez@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "k.hernandez@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "l.lopez@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "m.gonzalez@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "mechanical-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "n.wilson@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "mechanical-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "o.anderson@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "flutter-dev",
+    "priority_2": "lambda-calculus",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "p.thomas@innopolis.university",
+    "gpa": "2.6666666666666667",
+    "priority_1": "brand-market",
+    "priority_2": "mechanical-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "q.taylor@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "r.moore@innopolis.university",
+    "gpa": "2.3636363636363636",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "s.jackson@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "t.martin@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "u.lee@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "flutter-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "v.perez@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "w.thompson@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "x.white@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "lambda-calculus",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "y.harris@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "lambda-calculus",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "z.sanchez@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "a.clark@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "computing-arch",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "b.ramirez@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "robotics-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "c.lewis@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "d.robinson@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "brand-market",
+    "priority_4": "flutter-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "e.walker@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "mechanical-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "f.young@innopolis.university",
+    "gpa": "3.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "computing-arch",
+    "priority_3": "brand-market",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "g.allen@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "h.king@innopolis.university",
+    "gpa": "3.3750000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "i.wright@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "lambda-calculus",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "flutter-dev",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "j.scott@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "k.torres@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "lambda-calculus",
+    "priority_4": "robotics-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "l.nguyen@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "m.hill@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "n.flores@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "brand-market",
+    "priority_4": "flutter-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "o.green@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "p.adams@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "lambda-calculus",
+    "priority_3": "3d-intro",
+    "priority_4": "flutter-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "q.nelson@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "r.baker@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "s.hall@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "t.rivera@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "robotics-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "u.campbell@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "v.mitchell@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "w.carter@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "x.roberts@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "y.gomez@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "flutter-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "z.phillips@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "a.evans@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "b.turner@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "mechanical-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "c.diaz@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "d.parker@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "e.cruz@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "computing-arch",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "f.edwards@innopolis.university",
+    "gpa": "3.8750000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "g.collins@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "front-end-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "h.reyes@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "flutter-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "i.stewart@innopolis.university",
+    "gpa": "3.5555555555555556",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "j.morris@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "mechanical-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "k.morales@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "l.murphy@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "m.cook@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "n.rogers@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "lambda-calculus",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "o.gutierrez@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "robotics-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "p.ortiz@innopolis.university",
+    "gpa": "2.7777777777777778",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "q.morgan@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "mechanical-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "r.cooper@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "s.peterson@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "computing-arch",
+    "priority_4": "robotics-intro",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "t.bailey@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "mechanical-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "u.reed@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "v.kelly@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "mechanical-intro",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "w.howard@innopolis.university",
+    "gpa": "3.2222222222222222",
+    "priority_1": "front-end-dev",
+    "priority_2": "computing-arch",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "x.ramos@innopolis.university",
+    "gpa": "3.5714285714285714",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "flutter-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "y.kim@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "flutter-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "z.cox@innopolis.university",
+    "gpa": "3.6666666666666667",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "a.ward@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "mechanical-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "b.richardson@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "c.watson@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "d.brooks@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "3d-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "e.chavez@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "f.wood@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "lambda-calculus",
+    "priority_4": "mechanical-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "g.james@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "flutter-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "h.bennett@innopolis.university",
+    "gpa": "4.2500000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "mechanical-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "i.gray@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "flutter-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "j.mendoza@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "3d-intro",
+    "priority_4": "flutter-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "k.ruiz@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "l.hughes@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "m.price@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "n.alvarez@innopolis.university",
+    "gpa": "3.3750000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "o.castillo@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "p.sanders@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "mechanical-intro",
+    "priority_2": "electro-logic-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "robotics-intro",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "q.patel@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "r.myers@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "s.long@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "t.ross@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "lambda-calculus",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "u.foster@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "v.jimenez@innopolis.university",
+    "gpa": "4.6250000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "w.powell@innopolis.university",
+    "gpa": "3.1111111111111111",
+    "priority_1": "3d-intro",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "front-end-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "x.jenkins@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "mechanical-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "y.perry@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "mechanical-intro",
+    "priority_2": "3d-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "z.russell@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "a.sullivan@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "b.bell@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "c.coleman@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "d.butler@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "robotics-intro",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "e.henderson@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "robotics-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "f.barnes@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "robotics-intro",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "g.gonzales@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "h.fisher@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "i.vasquez@innopolis.university",
+    "gpa": "4.1250000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "j.simmons@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "k.romero@innopolis.university",
+    "gpa": "2.2666666666666667",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "robotics-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "l.jordan@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "mechanical-intro",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "m.patterson@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "n.alexander@innopolis.university",
+    "gpa": "3.5555555555555556",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "o.hamilton@innopolis.university",
+    "gpa": "3.8750000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "p.graham@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "q.reynolds@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "computing-arch",
+    "priority_2": "electro-logic-intro",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "r.griffin@innopolis.university",
+    "gpa": "2.9545454545454545",
+    "priority_1": "lambda-calculus",
+    "priority_2": "electro-logic-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "s.diaz@innopolis.university",
+    "gpa": "2.7777777777777778",
+    "priority_1": "brand-market",
+    "priority_2": "computing-arch",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "t.hayes@innopolis.university",
+    "gpa": "2.2727272727272727",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "u.martinez@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "v.lincoln@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "w.soto@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "x.hart@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "y.weaver@innopolis.university",
+    "gpa": "4.5000000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "z.pearl@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "flutter-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "a.mann@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "b.lucas@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "c.meeks@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "d.jennings@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "lambda-calculus",
+    "priority_4": "mechanical-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "e.greenwood@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "f.clarke@innopolis.university",
+    "gpa": "3.8571428571428571",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "g.gilbert@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "h.graham@innopolis.university",
+    "gpa": "3.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "i.clayton@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "j.norman@innopolis.university",
+    "gpa": "2.5000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "flutter-dev",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "k.black@innopolis.university",
+    "gpa": "3.1250000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "l.pope@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "m.herbert@innopolis.university",
+    "gpa": "3.3333333333333333",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "n.wells@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "computing-arch",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "o.bryan@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "p.franklin@innopolis.university",
+    "gpa": "3.2500000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "front-end-dev",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "q.owen@innopolis.university",
+    "gpa": "2.9000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "r.webster@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "flutter-dev",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "s.hunt@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "t.parsons@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "u.fields@innopolis.university",
+    "gpa": "3.3333333333333333",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "v.garrett@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "front-end-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "w.pearson@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "mechanical-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "x.montgomery@innopolis.university",
+    "gpa": "2.8510638297872340",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "y.phillip@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "robotics-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "z.evans@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "a.ellis@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "b.shelton@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "c.ferguson@innopolis.university",
+    "gpa": "3.8750000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "mechanical-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "d.porter@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "e.thornton@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "f.hanson@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "mechanical-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "g.higgins@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "brand-market",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "h.roy@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "mechanical-intro",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "i.glover@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "j.newton@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "flutter-dev",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "front-end-dev",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "k.butcher@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "robotics-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "l.rice@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "lambda-calculus",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "flutter-dev",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "m.joseph@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "brand-market",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "n.fleming@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "lambda-calculus",
+    "priority_2": "3d-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "o.mckinney@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "p.simmons@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "q.cross@innopolis.university",
+    "gpa": "3.2500000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "mechanical-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "r.cameron@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "lambda-calculus",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "s.rosales@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "lambda-calculus",
+    "priority_4": "computing-arch",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "t.chen@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "u.griffith@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "v.connor@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "mechanical-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "w.harvey@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "robotics-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "x.moss@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "y.jennings@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "mechanical-intro",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "z.ramos@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "mechanical-intro",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "a.fitzgerald@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "b.arnold@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "c.hart@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "d.murillo@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "brand-market",
+    "priority_4": "flutter-dev",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "e.kramer@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "f.yates@innopolis.university",
+    "gpa": "3.2352941176470588",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "g.boone@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "h.tran@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "mechanical-intro",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "i.norton@innopolis.university",
+    "gpa": "3.8571428571428571",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "lambda-calculus",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "j.mathews@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "mechanical-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "k.tanner@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "l.knight@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "flutter-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "m.carson@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "n.hubbard@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "flutter-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "o.nielsen@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "flutter-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "p.bond@innopolis.university",
+    "gpa": "3.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "q.curtis@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "3d-intro",
+    "priority_2": "mechanical-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "front-end-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "r.hamilton@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "s.duncan@innopolis.university",
+    "gpa": "2.5454545454545455",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "3d-intro",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "t.harrison@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "u.frank@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "robotics-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "v.leon@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "w.pearce@innopolis.university",
+    "gpa": "3.1111111111111111",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "lambda-calculus",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "x.kent@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "lambda-calculus",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "robotics-intro",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "y.lucas@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "mechanical-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "z.craig@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "a.cannon@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "3d-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "mechanical-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "b.murray@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "mechanical-intro",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "flutter-dev",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "c.armstrong@innopolis.university",
+    "gpa": "3.1111111111111111",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "d.waters@innopolis.university",
+    "gpa": "2.2142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "computing-arch",
+    "priority_3": "mechanical-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "e.bradley@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "f.gross@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "electro-logic-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "mechanical-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "g.ortega@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "h.bass@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "i.huff@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "j.clay@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "3d-intro",
+    "priority_3": "robotics-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "k.glenn@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "computing-arch",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "lambda-calculus",
+    "priority_4": "brand-market",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "l.bowers@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "m.barlow@innopolis.university",
+    "gpa": "4.3750000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "mechanical-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "n.mason@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "brand-market",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "o.holland@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "robotics-intro",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "p.greer@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "lambda-calculus",
+    "priority_3": "flutter-dev",
+    "priority_4": "mechanical-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "q.manning@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "robotics-intro",
+    "priority_2": "mechanical-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "r.robbins@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "front-end-dev",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "s.mccarthy@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "mechanical-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "t.barker@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "flutter-dev",
+    "priority_2": "brand-market",
+    "priority_3": "front-end-dev",
+    "priority_4": "mechanical-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "u.sparks@innopolis.university",
+    "gpa": "3.0000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "brand-market",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "v.perkins@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "w.webb@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "computing-arch",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "x.jenkins@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "mechanical-intro",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "y.alvarado@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "mechanical-intro",
+    "priority_2": "robotics-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "z.gross@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "a.klein@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "brand-market",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "flutter-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "b.jacobs@innopolis.university",
+    "gpa": "3.2127659574468085",
+    "priority_1": "brand-market",
+    "priority_2": "3d-intro",
+    "priority_3": "computing-arch",
+    "priority_4": "robotics-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "c.higgins@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "d.warner@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "flutter-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "robotics-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "e.wolf@innopolis.university",
+    "gpa": "2.7000000000000000",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "flutter-dev",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "f.holland@innopolis.university",
+    "gpa": "3.7500000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "robotics-intro",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "mechanical-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "g.neal@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "h.pearson@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "3d-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "i.daniels@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "j.wheeler@innopolis.university",
+    "gpa": "2.8888888888888889",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "k.sutherland@innopolis.university",
+    "gpa": "3.5000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "l.may@innopolis.university",
+    "gpa": "3.9166666666666667",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "m.ellis@innopolis.university",
+    "gpa": "2.6000000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "robotics-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "n.chavez@innopolis.university",
+    "gpa": "3.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "lambda-calculus",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "o.montoya@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "front-end-dev",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "brand-market",
+    "priority_4": "computing-arch",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "p.barrett@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "robotics-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "q.poole@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "computing-arch",
+    "priority_3": "flutter-dev",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "r.brady@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "mechanical-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "robotics-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "s.conner@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "t.mcguire@innopolis.university",
+    "gpa": "3.1250000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "u.mcgee@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "3d-intro",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "v.boyd@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "w.davidson@innopolis.university",
+    "gpa": "3.3750000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "x.roth@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "lambda-calculus",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "computing-arch",
+    "priority_4": "robotics-intro",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "y.gill@innopolis.university",
+    "gpa": "3.8571428571428571",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "brand-market",
+    "priority_3": "flutter-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "z.ryan@innopolis.university",
+    "gpa": "3.2857142857142857",
+    "priority_1": "mechanical-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "a.fowler@innopolis.university",
+    "gpa": "3.2500000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "b.valdez@innopolis.university",
+    "gpa": "4.5714285714285714",
+    "priority_1": "flutter-dev",
+    "priority_2": "brand-market",
+    "priority_3": "3d-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "c.acosta@innopolis.university",
+    "gpa": "3.8571428571428571",
+    "priority_1": "mechanical-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "3d-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "d.stone@innopolis.university",
+    "gpa": "3.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "brand-market",
+    "priority_5": "electro-logic-intro"
+  },
+  {
+    "email": "e.hendrix@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "f.adkins@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "robotics-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "g.steele@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "brand-market",
+    "priority_4": "3d-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "h.simmons@innopolis.university",
+    "gpa": "3.4332345435353232",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "flutter-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "i.hardin@innopolis.university",
+    "gpa": "3.2500000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "mechanical-intro",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "j.carter@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "k.potts@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "mechanical-intro",
+    "priority_4": "mechanical-intro",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "l.branch@innopolis.university",
+    "gpa": "2.8000000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "brand-market",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "m.sampson@innopolis.university",
+    "gpa": "2.3636363636363636",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "robotics-intro",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "mechanical-intro"
+  },
+  {
+    "email": "n.moses@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "front-end-dev",
+    "priority_2": "brand-market",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "flutter-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "o.webber@innopolis.university",
+    "gpa": "2.5454545454545455",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "real-time-scheldue",
+    "priority_4": "3d-intro",
+    "priority_5": "lambda-calculus"
+  },
+  {
+    "email": "p.nixon@innopolis.university",
+    "gpa": "4.0000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "brand-market",
+    "priority_4": "front-end-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "q.page@innopolis.university",
+    "gpa": "2.7777777777777778",
+    "priority_1": "3d-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "r.perry@innopolis.university",
+    "gpa": "3.0000000000000000",
+    "priority_1": "3d-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "mechanical-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "adv-c-cpp"
+  },
+  {
+    "email": "s.mendez@innopolis.university",
+    "gpa": "2.2666666666666667",
+    "priority_1": "3d-intro",
+    "priority_2": "brand-market",
+    "priority_3": "robotics-intro",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "t.hammond@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "front-end-dev",
+    "priority_4": "flutter-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "u.quinn@innopolis.university",
+    "gpa": "2.7916666666666667",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "brand-market",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "v.harrington@innopolis.university",
+    "gpa": "4.1818181818181818",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "robotics-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "w.walton@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "computing-arch",
+    "priority_3": "front-end-dev",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "flutter-dev"
+  },
+  {
+    "email": "x.richmond@innopolis.university",
+    "gpa": "3.8750000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "electro-logic-intro",
+    "priority_4": "front-end-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "y.hopkins@innopolis.university",
+    "gpa": "4.2857142857142857",
+    "priority_1": "mechanical-intro",
+    "priority_2": "front-end-dev",
+    "priority_3": "flutter-dev",
+    "priority_4": "robotics-intro",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "z.joseph@innopolis.university",
+    "gpa": "2.8000000000000000",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "a.dean@innopolis.university",
+    "gpa": "2.5833333333333333",
+    "priority_1": "flutter-dev",
+    "priority_2": "front-end-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "robotics-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "b.armstrong@innopolis.university",
+    "gpa": "4.7142857142857143",
+    "priority_1": "electro-logic-intro",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "lambda-calculus",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "c.burton@innopolis.university",
+    "gpa": "3.7142857142857143",
+    "priority_1": "real-time-scheldue",
+    "priority_2": "computing-arch",
+    "priority_3": "flutter-dev",
+    "priority_4": "front-end-dev",
+    "priority_5": "3d-intro"
+  },
+  {
+    "email": "d.benson@innopolis.university",
+    "gpa": "4.5555555555555556",
+    "priority_1": "3d-intro",
+    "priority_2": "flutter-dev",
+    "priority_3": "adv-c-cpp",
+    "priority_4": "computing-arch",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "e.chandler@innopolis.university",
+    "gpa": "3.6250000000000000",
+    "priority_1": "brand-market",
+    "priority_2": "real-time-scheldue",
+    "priority_3": "mechanical-intro",
+    "priority_4": "adv-c-cpp",
+    "priority_5": "robotics-intro"
+  },
+  {
+    "email": "f.roman@innopolis.university",
+    "gpa": "3.3750000000000000",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "front-end-dev",
+    "priority_3": "robotics-intro",
+    "priority_4": "flutter-dev",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "g.kirby@innopolis.university",
+    "gpa": "5.0000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "flutter-dev",
+    "priority_3": "3d-intro",
+    "priority_4": "real-time-scheldue",
+    "priority_5": "computing-arch"
+  },
+  {
+    "email": "h.gregory@innopolis.university",
+    "gpa": "2.7272727272727273",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "electro-logic-intro",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "i.cross@innopolis.university",
+    "gpa": "4.4285714285714286",
+    "priority_1": "brand-market",
+    "priority_2": "flutter-dev",
+    "priority_3": "front-end-dev",
+    "priority_4": "lambda-calculus",
+    "priority_5": "real-time-scheldue"
+  },
+  {
+    "email": "j.coleman@innopolis.university",
+    "gpa": "4.8571428571428571",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "flutter-dev",
+    "priority_3": "computing-arch",
+    "priority_4": "front-end-dev",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "k.bullock@innopolis.university",
+    "gpa": "4.5000000000000000",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "3d-intro",
+    "priority_5": "brand-market"
+  },
+  {
+    "email": "l.hogan@innopolis.university",
+    "gpa": "2.4615384615384615",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "robotics-intro",
+    "priority_3": "3d-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "m.fischer@innopolis.university",
+    "gpa": "2.7777777777777778",
+    "priority_1": "adv-c-cpp",
+    "priority_2": "3d-intro",
+    "priority_3": "robotics-intro",
+    "priority_4": "computing-arch",
+    "priority_5": "front-end-dev"
+  },
+  {
+    "email": "a.smith@innopolis.university",
+    "gpa": "4.1428571428571429",
+    "priority_1": "front-end-dev",
+    "priority_2": "adv-c-cpp",
+    "priority_3": "flutter-dev",
+    "priority_4": "computing-arch",
+    "priority_5": "lambda-calculus"
+  }
+]

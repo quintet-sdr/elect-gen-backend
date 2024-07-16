@@ -33,6 +33,9 @@ sqlalchemy = "^2.0.31"
 async-exit-stack = "^1.0.1"
 async-generator = "^1.10"
 psycopg2-binary = "^2.9.9"
+numpy = "^2.0.0"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -53,3 +53,18 @@ def create_course(db: Session, course: schemas.CourseCreate):
     db.commit()
     db.refresh(db_course)
     return db_course
+
+
+def get_distributions(db: Session, skip: int = 0, limit: int = 100):
+    return db.query(models.Distribution).offset(skip).limit(limit).all()
+
+
+def create_distribution(db: Session, distribution: schemas.DistributionCreate):
+    db_distribution = models.Distribution(
+        student_email=distribution.student_email,
+        course_codename=distribution.course_codename,
+    )
+    db.add(db_distribution)
+    db.commit()
+    db.refresh(db_distribution)
+    return db_distribution

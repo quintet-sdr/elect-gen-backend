@@ -67,14 +67,13 @@ async def read_courses(skip: int = 0, limit: int = 100, db: Session = Depends(ge
 
 @router.post("/distributions/")
 async def create_distribution(db: Session = Depends(get_db)):
-    Distribution.__table__.drop(db.get_bind())
-    Distribution.__table__.create(db.get_bind())
     db_distributions = []
-    result = algorithm.get_result()
+    print("Running algorithm")
+    result = algorithm.get_result(db)  # Pass the db session to get_result
     for distribution_key, distribution_value in result.items():
         for student_course in distribution_value:
             distribution_create = schemas.DistributionCreate(
-                student_email=str(student_course['student']),
+                student_email=str(student_course['student']),  # Convert to string
                 course_codename=student_course['course']
             )
             db_distribution = crud.create_distribution(db=db, distribution=distribution_create)

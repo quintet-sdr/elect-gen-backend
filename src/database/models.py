@@ -6,8 +6,8 @@ from .database import Base
 class Course(Base):
     __tablename__ = "courses"
 
-    id = Column(Integer, primary_key=True, index=True)
-    codename = Column(String, unique=True, index=True)
+    # id = Column(Integer, primary_key=True, index=True)
+    codename = Column(String, primary_key=True, index=True)
     type = Column(String)
     full_name = Column(String)
     short_name = Column(String)
@@ -23,8 +23,8 @@ class Course(Base):
 class Student(Base):
     __tablename__ = "students"
 
-    id = Column(Integer, primary_key=True, index=True)
-    email = Column(String, unique=True, index=True)
+    # id = Column(Integer, primary_key=True, index=True)
+    email = Column(String, primary_key=True, index=True)
     gpa = Column(Float)
     priority_1 = Column(String)
     priority_2 = Column(String)

@@ -67,11 +67,13 @@ async def read_courses(skip: int = 0, limit: int = 100, db: Session = Depends(ge
 @router.get("/distributions/")
 async def read_distribution(db: Session = Depends(get_db)):
     get_json(db)
-    print('Reading distributions')
-    core = os.getenv('CORE')
-    print('Got core', core)
+    print("Reading distributions")
+    core = os.getenv("CORE")
+    print("Got core", core)
     command = f'python {os.path.join(str(core), "algorithm_cli.py")} --courses .tmp/c.json --students .tmp/s.json --output .tmp/d.json'
     print(command)
-    result = subprocess.run(command, shell=True, capture_output=True, text=True, encoding='utf-8')
+    result = subprocess.run(
+        command, shell=True, capture_output=True, text=True, encoding="utf-8"
+    )
     print(result.stdout)
     return {"message": "Success"}

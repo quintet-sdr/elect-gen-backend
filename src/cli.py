@@ -11,8 +11,10 @@ class Args(Tap):
 
     @override
     def configure(self) -> None:
-        self.add_argument("core", metavar="<DIRECTORY>", help="path to Elect.Gen Core")  # pyright: ignore[reportUnknownMemberType]
-        self.add_argument("--host", metavar="<IPv4>", help="bind socket to this host")  # pyright: ignore[reportUnknownMemberType]
+        self.add_argument("core", metavar="<DIRECTORY>",
+                          help="path to Elect.Gen Core")  # pyright: ignore[reportUnknownMemberType]
+        self.add_argument("--host", metavar="<IPv4>",
+                          help="bind socket to this host")  # pyright: ignore[reportUnknownMemberType]
         self.add_argument(  # pyright: ignore[reportUnknownMemberType]
             "--port",
             metavar="<USHORT>",

@@ -1,3 +1,5 @@
+import subprocess
+
 from fastapi import APIRouter
 from src.database.schemas import TableExtension
 
@@ -8,6 +10,13 @@ from src.database import crud, schemas
 from src.database.database import get_db
 from src.database.models import Distribution
 from src.database import algorithm
+from utils.db_json_converter import get_json
+import os
+from os import path
+from src.cli import Args
+from dotenv import load_dotenv
+
+load_dotenv()
 
 router = APIRouter()
 
@@ -55,33 +64,14 @@ async def read_courses(skip: int = 0, limit: int = 100, db: Session = Depends(ge
     return courses
 
 
-# @router.post("/distribution/", response_model=schemas.Distribution)
-# async def create_distribution(distribution: schemas.DistributionCreate, db: Session = Depends(get_db)):
-#     return crud.create_distribution(db=db, distribution=distribution)
-#
-#
-# @router.get("/distribution/", response_model=list[schemas.Distribution])
-# async def read_distribution(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-#     distributions = crud.get_distributions(db, skip=skip, limit=limit)
-#     return distributions
-
-@router.post("/distributions/")
-async def create_distribution(db: Session = Depends(get_db)):
-    db_distributions = []
-    print("Running algorithm")
-    result = algorithm.get_result(db)  # Pass the db session to get_result
-    for distribution_key, distribution_value in result.items():
-        for student_course in distribution_value:
-            distribution_create = schemas.DistributionCreate(
-                student_email=str(student_course['student']),  # Convert to string
-                course_codename=student_course['course']
-            )
-            db_distribution = crud.create_distribution(db=db, distribution=distribution_create)
-            db_distributions.append(db_distribution)
-    return db_distributions
-
-
 @router.get("/distributions/")
-async def read_distribution(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    distributions = crud.get_distributions(db, skip=skip, limit=limit)
-    return distributions
+async def read_distribution(db: Session = Depends(get_db)):
+    get_json(db)
+    print('Reading distributions')
+    core = os.getenv('CORE')
+    print('Got core', core)
+    command = f'python {os.path.join(str(core), "algorithm_cli.py")} --courses .tmp/c.json --students .tmp/s.json --output .tmp/d.json'
+    print(command)
+    result = subprocess.run(command, shell=True, capture_output=True, text=True, encoding='utf-8')
+    print(result.stdout)
+    return {"message": "Success"}

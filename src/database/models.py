@@ -19,6 +19,21 @@ class Course(Base):
     high_in_group = Column(Integer)
     max_in_group = Column(Integer)
 
+    def to_dict(self):
+        return {
+            "codename": self.codename,
+            "type": self.type,
+            "full_name": self.full_name,
+            "short_name": self.short_name,
+            "description": self.description,
+            "instructor": self.instructor,
+            "min_overall": int(self.min_overall),
+            "max_overall": int(self.max_overall),
+            "low_in_group": int(self.low_in_group),
+            "high_in_group": int(self.high_in_group),
+            "max_in_group": int(self.max_in_group),
+        }
+
 
 class Student(Base):
     __tablename__ = "students"
@@ -32,6 +47,17 @@ class Student(Base):
     priority_4 = Column(String)
     priority_5 = Column(String)
 
+    def to_dict(self):
+        return {
+            "email": self.email,
+            "gpa": float(self.gpa),
+            "priority_1": self.priority_1,
+            "priority_2": self.priority_2,
+            "priority_3": self.priority_3,
+            "priority_4": self.priority_4,
+            "priority_5": self.priority_5,
+        }
+
 
 class Distribution(Base):
     __tablename__ = "distributions"
@@ -39,3 +65,9 @@ class Distribution(Base):
     id = Column(Integer, primary_key=True, index=True)
     student_email = Column(String, index=True)
     course_codename = Column(String, index=True)
+
+    def to_dict(self):
+        return {
+            "student_email": self.student_email,
+            "course_codename": self.course_codename,
+        }

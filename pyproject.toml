@@ -21,6 +21,7 @@ start = "scripts:start"
 lint = "scripts:lint"
 format = "scripts:format"
 tmp = "src.tmp:main"
+test = 'scripts:test'
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -36,6 +37,7 @@ psycopg2-binary = "^2.9.9"
 numpy = "^2.0.0"
 matplotlib = "^3.9.1"
 seaborn = "^0.13.2"
+python-dotenv = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]

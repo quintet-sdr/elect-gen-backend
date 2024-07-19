@@ -1,12 +1,16 @@
 # Elect.Gen Back End
 
+
 This repository is a service of the
 [Elect.Gen](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen) project.
 Navigate there to learn more.
 
+
 ## 🧰 Tooling
 
+
 Here are some technologies used in this project:
+
 
 - 🐍 Programming language: [Python](https://github.com/python/cpython)
 - 📦 Package manager: [Poetry](https://github.com/python-poetry/poetry)
@@ -15,6 +19,7 @@ Here are some technologies used in this project:
 - 🖌️ Code formatter: [Ruff](https://github.com/astral-sh/ruff)
 - 🧠 Code linter: [Ruff](https://github.com/astral-sh/ruff)
 - 😎 Language server: [Basedpyright](https://github.com/detachhead/basedpyright)
+
 
 ## 🖥️ Launch locally
 
@@ -123,6 +128,7 @@ poetry run <SCRIPT> --help
 ```
 
 ## 📄 License
+=======
 
 The project is licensed under the [MIT License](/LICENSE).
 

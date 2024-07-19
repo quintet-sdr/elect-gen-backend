@@ -1,4 +1,5 @@
-from sqlalchemy import Column, Integer, String, Float, ARRAY
+from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy.dialects.postgresql import ARRAY
 
 from .database import Base
 
@@ -18,7 +19,7 @@ class Course(Base):
     low_in_group = Column(Integer)
     high_in_group = Column(Integer)
     max_in_group = Column(Integer)
-    years = Column(ARRAY(Integer))
+    groups = Column(ARRAY(String))
 
     def to_dict(self):
         return {
@@ -33,6 +34,7 @@ class Course(Base):
             "low_in_group": int(self.low_in_group),
             "high_in_group": int(self.high_in_group),
             "max_in_group": int(self.max_in_group),
+            "groups": self.groups,
         }
 
 
@@ -47,6 +49,8 @@ class Student(Base):
     priority_3 = Column(String)
     priority_4 = Column(String)
     priority_5 = Column(String)
+    group = Column(String)
+    completed = Column(ARRAY(String))
 
     def to_dict(self):
         return {
@@ -57,6 +61,8 @@ class Student(Base):
             "priority_3": self.priority_3,
             "priority_4": self.priority_4,
             "priority_5": self.priority_5,
+            "group": self.group,
+            "completed": self.completed
         }
 
 

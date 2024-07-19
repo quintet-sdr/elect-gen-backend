@@ -30,7 +30,7 @@ class CourseBase(BaseModel):
     low_in_group: int
     high_in_group: int
     max_in_group: int
-    years: list[int]
+    groups: list[str]
 
 
 class CourseCreate(CourseBase):
@@ -50,6 +50,8 @@ class StudentBase(BaseModel):
     priority_3: CourseCodename
     priority_4: CourseCodename
     priority_5: CourseCodename
+    group: str
+    completed: list[CourseCodename]
 
 
 class StudentCreate(StudentBase):

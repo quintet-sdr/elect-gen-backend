@@ -27,7 +27,7 @@ DO $$ BEGIN
         low_in_group numeric,
         high_in_group numeric,
         max_in_group numeric,
-        years numeric[]
+        groups text[]
     );
 END $$;
 
@@ -48,11 +48,11 @@ CREATE TABLE courses (
     low_in_group numeric,
     high_in_group numeric,
     max_in_group numeric,
-    years numeric[]
+    groups text[]
 );
 
 -- Insert the JSON data into the table
-INSERT INTO courses (codename, type, full_name, short_name, description, instructor, min_overall, max_overall, low_in_group, high_in_group, max_in_group, years)
+INSERT INTO courses (codename, type, full_name, short_name, description, instructor, min_overall, max_overall, low_in_group, high_in_group, max_in_group, groups)
 SELECT * FROM json_populate_recordset(NULL::course_type, %s);
 """
 

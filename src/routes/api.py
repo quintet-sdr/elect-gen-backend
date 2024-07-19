@@ -9,7 +9,6 @@ from sqlalchemy.orm import Session
 from src.database import crud, schemas
 from src.database.database import get_db
 from src.database.models import Distribution
-from src.database import algorithm
 from utils.db_json_converter import get_json
 import os
 from os import path

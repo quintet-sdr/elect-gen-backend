@@ -20,6 +20,8 @@ def create_student(db: Session, student: schemas.StudentCreate):
         priority_3=student.priority_3,
         priority_4=student.priority_4,
         priority_5=student.priority_5,
+        group=student.group,
+        completed=student.completed,
     )
     db.add(db_student)
     db.commit()
@@ -45,6 +47,11 @@ def get_courses(db: Session):
     return db.query(models.Course).all()
 
 
+def get_courses_by_group(db: Session, group: str):
+    # Use the PostgreSQL ANY function to check if the specified group is in the groups array of the Course model
+    return db.query(models.Course).filter(models.Course.groups.any(group)).all()
+
+
 def create_course(db: Session, course: schemas.CourseCreate):
     db_course = models.Course(
         id=course.id,
@@ -59,6 +66,7 @@ def create_course(db: Session, course: schemas.CourseCreate):
         low_in_group=course.low_in_group,
         high_in_group=course.high_in_group,
         max_in_group=course.max_in_group,
+        groups=course.groups,
     )
     db.add(db_course)
     db.commit()

@@ -10,7 +10,11 @@
         "max_overall": 80,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "3d-intro",
@@ -23,7 +27,11 @@
         "max_overall": 60,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "learn-for-search",
@@ -36,7 +44,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "mlops-eng",
@@ -49,7 +61,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "front-end-dev",
@@ -62,7 +78,11 @@
         "max_overall": 120,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "neuro-intro",
@@ -75,7 +95,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "prototype-intro",
@@ -88,7 +112,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "computing-arch",
@@ -101,7 +129,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "real-time-scheldue",
@@ -114,7 +146,11 @@
         "max_overall": 28,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "robotics-intro",
@@ -127,7 +163,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "lambda-calculus",
@@ -140,7 +180,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "flutter-dev",
@@ -153,7 +197,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "adv-c-cpp",
@@ -166,7 +214,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "mechanical-intro",
@@ -179,7 +231,11 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     },
     {
         "codename": "electro-logic-intro",
@@ -192,6 +248,10 @@
         "max_overall": 40,
         "low_in_group": 15,
         "high_in_group": 30,
-        "max_in_group": 32
+        "max_in_group": 32,
+        "groups": [
+            "year-1",
+            "year-2"
+        ]
     }
 ]

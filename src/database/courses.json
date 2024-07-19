@@ -11,9 +11,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -28,9 +28,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -45,9 +45,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -62,9 +62,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -79,9 +79,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -96,9 +96,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -113,9 +113,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -130,9 +130,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -147,9 +147,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -164,9 +164,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -181,9 +181,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -198,9 +198,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -215,9 +215,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -232,9 +232,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   },
   {
@@ -249,9 +249,9 @@
     "low_in_group": "15",
     "high_in_group": "30",
     "max_in_group": "32",
-    "years": [
-      2021,
-      2022
+    "groups": [
+      "year-1",
+      "year-2"
     ]
   }
 ]

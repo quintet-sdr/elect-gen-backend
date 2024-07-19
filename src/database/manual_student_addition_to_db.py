@@ -22,7 +22,9 @@ DO $$ BEGIN
         "priority_2" text,
         "priority_3" text,
         "priority_4" text,
-        "priority_5" text
+        "priority_5" text,
+        "group" text,
+        "completed" text[]
     );
 END $$;
 

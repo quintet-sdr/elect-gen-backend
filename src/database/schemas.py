@@ -73,4 +73,3 @@ class DistributionCreate(DistributionBase):
 class Distribution(DistributionBase):
     class Config:
         orm_mode = True
-

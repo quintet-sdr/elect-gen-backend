@@ -5,7 +5,7 @@ import psycopg2
 con = psycopg2.connect("postgresql://postgres:sdr@localhost:5432/postgres")
 cursor = con.cursor()
 
-with open('courses.json') as file:
+with open("courses.json") as file:
     data = file.read()
 
 query_sql = """
@@ -58,5 +58,5 @@ SELECT * FROM json_populate_recordset(NULL::course_type, %s);
 
 cursor.execute(query_sql, (data,))
 con.commit()
-cursor.execute('select * from courses')
+cursor.execute("select * from courses")
 print(cursor.fetchall())

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import Column, Integer, String, Float, ARRAY
 
 from .database import Base
 
@@ -6,7 +6,7 @@ from .database import Base
 class Course(Base):
     __tablename__ = "courses"
 
-    # id = Column(Integer, primary_key=True, index=True)
+    id = Column(Integer, index=True, autoincrement=True)
     codename = Column(String, primary_key=True, index=True)
     type = Column(String)
     full_name = Column(String)
@@ -18,6 +18,7 @@ class Course(Base):
     low_in_group = Column(Integer)
     high_in_group = Column(Integer)
     max_in_group = Column(Integer)
+    years = Column(ARRAY(Integer))
 
     def to_dict(self):
         return {

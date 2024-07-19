@@ -7,8 +7,8 @@ def get_student_by_email(db: Session, email: str):
     return db.query(models.Student).filter(models.Student.email == email).first()
 
 
-def get_students(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(models.Student).offset(skip).limit(limit).all()
+def get_students(db: Session):
+    return db.query(models.Student).all()
 
 
 def create_student(db: Session, student: schemas.StudentCreate):
@@ -27,16 +27,27 @@ def create_student(db: Session, student: schemas.StudentCreate):
     return db_student
 
 
+def delete_student(db: Session, student: models.Student):
+    db.delete(student)
+    db.commit()
+    return student
+
+
+def get_course_by_id(db: Session, id: int):
+    return db.query(models.Course).filter(models.Course.id == id).first()
+
+
 def get_course_by_codename(db: Session, codename: str):
     return db.query(models.Course).filter(models.Course.codename == codename).first()
 
 
-def get_courses(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(models.Course).offset(skip).limit(limit).all()
+def get_courses(db: Session):
+    return db.query(models.Course).all()
 
 
 def create_course(db: Session, course: schemas.CourseCreate):
     db_course = models.Course(
+        id=course.id,
         codename=course.codename,
         type=course.type,
         full_name=course.full_name,
@@ -53,6 +64,11 @@ def create_course(db: Session, course: schemas.CourseCreate):
     db.commit()
     db.refresh(db_course)
     return db_course
+
+
+def delete_course(db: Session, course: models.Course):
+    db.delete(course)
+    db.commit()
 
 
 def get_distributions(db: Session, skip: int = 0, limit: int = 100):

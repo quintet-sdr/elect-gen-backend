@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import NewType
 
-from pydantic import BaseModel, EmailStr, NonNegativeFloat
+from pydantic import BaseModel, EmailStr, NonNegativeFloat, PositiveInt
 
 
 class TableExtension(str, Enum):
@@ -18,6 +18,7 @@ CourseCodename = NewType("CourseCodename", str)
 
 
 class CourseBase(BaseModel):
+    id: PositiveInt = 0
     codename: CourseCodename
     type: CourseType
     full_name: str
@@ -29,6 +30,7 @@ class CourseBase(BaseModel):
     low_in_group: int
     high_in_group: int
     max_in_group: int
+    years: list[int]
 
 
 class CourseCreate(CourseBase):

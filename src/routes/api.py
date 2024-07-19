@@ -40,27 +40,28 @@ async def get_table(extension: TableExtension) -> None:
 async def create_student(student: schemas.StudentCreate, db: Session = Depends(get_db)):
     db_student = crud.get_student_by_email(db, email=student.email)
     if db_student:
-        raise HTTPException(status_code=400, detail="Email already registered")
+        crud.delete_student(db, db_student)
     return crud.create_student(db=db, student=student)
 
 
 @router.get("/students/", response_model=list[schemas.Student])
-async def read_students(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    students = crud.get_students(db, skip=skip, limit=limit)
+async def read_students(db: Session = Depends(get_db)):
+    students = crud.get_students(db)
     return students
 
 
 @router.post("/courses/", response_model=schemas.Course)
 async def create_course(course: schemas.CourseCreate, db: Session = Depends(get_db)):
-    db_course = crud.get_course_by_codename(db, codename=course.codename)
+    db_course = crud.get_course_by_id(db, id=course.id)
     if db_course:
-        raise HTTPException(status_code=400, detail="Course already registered")
-    return crud.create_course(db=db, course=course)
+        crud.delete_course(db, db_course)
+    new_course = crud.create_course(db=db, course=course)
+    return new_course
 
 
 @router.get("/courses/", response_model=list[schemas.Course])
-async def read_courses(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    courses = crud.get_courses(db, skip=skip, limit=limit)
+async def read_courses(db: Session = Depends(get_db)):
+    courses = crud.get_courses(db)
     return courses
 
 

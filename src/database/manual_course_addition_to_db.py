@@ -16,17 +16,18 @@ DO $$ BEGIN
     END IF;
     -- Create the composite type
     CREATE TYPE course_type AS (
-        "codename" text,
-        "type" text,
-        "full_name" text,
-        "short_name" text,
-        "description" text,
-        "instructor" text,
-        "min_overall" numeric,
-        "max_overall" numeric,
-        "low_in_group" numeric,
-        "high_in_group" numeric,
-        "max_in_group" numeric
+        codename text,
+        type text,
+        full_name text,
+        short_name text,
+        description text,
+        instructor text,
+        min_overall numeric,
+        max_overall numeric,
+        low_in_group numeric,
+        high_in_group numeric,
+        max_in_group numeric,
+        years numeric[]
     );
 END $$;
 
@@ -34,7 +35,25 @@ END $$;
 DROP TABLE IF EXISTS courses;
 
 -- Create the table
-CREATE TABLE courses AS SELECT * FROM json_populate_recordset(NULL::course_type, %s);
+CREATE TABLE courses (
+    id SERIAL PRIMARY KEY,
+    codename text,
+    type text,
+    full_name text,
+    short_name text,
+    description text,
+    instructor text,
+    min_overall numeric,
+    max_overall numeric,
+    low_in_group numeric,
+    high_in_group numeric,
+    max_in_group numeric,
+    years numeric[]
+);
+
+-- Insert the JSON data into the table
+INSERT INTO courses (codename, type, full_name, short_name, description, instructor, min_overall, max_overall, low_in_group, high_in_group, max_in_group, years)
+SELECT * FROM json_populate_recordset(NULL::course_type, %s);
 """
 
 cursor.execute(query_sql, (data,))

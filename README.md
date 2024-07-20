@@ -1,16 +1,12 @@
 # Elect.Gen Back End
 
-
 This repository is a service of the
 [Elect.Gen](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen) project.
 Navigate there to learn more.
 
-
 ## 🧰 Tooling
 
-
 Here are some technologies used in this project:
-
 
 - 🐍 Programming language: [Python](https://github.com/python/cpython)
 - 📦 Package manager: [Poetry](https://github.com/python-poetry/poetry)
@@ -19,7 +15,6 @@ Here are some technologies used in this project:
 - 🖌️ Code formatter: [Ruff](https://github.com/astral-sh/ruff)
 - 🧠 Code linter: [Ruff](https://github.com/astral-sh/ruff)
 - 😎 Language server: [Basedpyright](https://github.com/detachhead/basedpyright)
-
 
 ## 🖥️ Launch locally
 
@@ -32,8 +27,8 @@ Here are some technologies used in this project:
 
 For example, you can do it via HTTPS:
 
-```console
-git clone --recurse-submodules https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen.git
+```shell
+git clone --recurse-submodules https://github.com/quintet-sdr/elect-gen.git
 ```
 
 ### Open the back end directory
@@ -55,8 +50,8 @@ cd elect-gen/services/backend/
 
 For example, you can do it via HTTPS:
 
-```console
-git clone https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-backend.git
+```shell
+git clone https://github.com/quintet-sdr/elect-gen.git
 ```
 
 ### Open the cloned directory
@@ -89,13 +84,13 @@ source .venv/bin/activate
 
 #### You only need to install Poetry by yourself
 
-```console
+```shell
 pip install poetry
 ```
 
 #### Then, the command below will take care of the rest
 
-```console
+```shell
 poetry install
 ```
 
@@ -104,30 +99,31 @@ poetry install
 To launch the back end, you need to run the `start` Poetry script. It requires
 you to enter the path to a directory containing [Elect.Gen Core](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core).
 
-```console
+```shell
 poetry run start ../core/
 ```
 
 You can also start a development server with the `dev` script, which enables
 hot reload.
 
-```console
+```shell
 poetry run dev ../core/
 ```
 
 Both commands support additional CLI arguments.
 
-```console
+```shell
 poetry run <SCRIPT> --host 1.2.3.4 --port 5 path/to/elect-gen-core
 ```
 
 You can read their descriptions using the `--help` argument.
 
-```console
+```shell
 poetry run <SCRIPT> --help
 ```
 
 ## 📄 License
+
 =======
 
 The project is licensed under the [MIT License](/LICENSE).

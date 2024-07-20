@@ -5,6 +5,7 @@ from fastapi import APIRouter
 from matplotlib import pyplot as plt
 from openpyxl.utils import get_column_letter
 from openpyxl.utils.dataframe import dataframe_to_rows
+from sqlalchemy import text
 
 from src.database.schemas import TableExtension
 
@@ -82,19 +83,23 @@ async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_d
 
     crud.delete_all_students(db)
     for _, row in df_students.iterrows():
-        student = row.to_dict()
-        if student['completed']:
-            student['completed'] = str(student['completed']).split(';')
+        student_dict = row.to_dict()
+        if student_dict['completed']:
+            student_dict['completed'] = str(student_dict['completed']).split(';')
         else:
-            student['completed'] = []
-        if student['available']:
-            student['available'] = str(student['available']).split(';')
+            student_dict['completed'] = []
+        if student_dict['available']:
+            student_dict['available'] = str(student_dict['available']).split(';')
         else:
-            student['available'] = []
+            student_dict['available'] = []
+        for course in crud.get_courses_by_group(db, student_dict['group']):
+            student_dict['available'] += [course.codename]
         for constraint in crud.get_constraints(db):
-            if constraint.student_email == student['email'] and constraint.course_codename not in student['completed']:
-                student['completed'] += [constraint.course_codename]
-        student = schemas.StudentCreate(**student)
+            if constraint.student_email == student_dict['email'] and constraint.course_codename not in student_dict[
+                'completed']:
+                student_dict['completed'] += [constraint.course_codename]
+        student_dict['available'] = list(set(student_dict['available']) - set(student_dict['completed']))
+        student = schemas.StudentCreate(**student_dict)
         db_student = crud.get_student_by_email(db, email=student.email)
         if db_student:
             crud.delete_student(db, db_student)

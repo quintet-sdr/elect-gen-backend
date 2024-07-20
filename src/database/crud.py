@@ -12,10 +12,6 @@ def get_students(db: Session):
 
 
 def create_student(db: Session, student: schemas.StudentCreate):
-    available_courses = []
-    available_courses += get_courses_by_group(db, student.group)
-    student.available = [course.codename for course in list(set(available_courses) - set(student.completed))]
-    print(student.group, available_courses, student.available)
     db_student = models.Student(
         email=student.email,
         gpa=student.gpa,

@@ -12,6 +12,10 @@ def get_students(db: Session):
 
 
 def create_student(db: Session, student: schemas.StudentCreate):
+    available_courses = []
+    available_courses += get_courses_by_group(db, student.group)
+    student.available = list(set(available_courses) - set(student.completed))
+    print(student.group, available_courses, student.available)
     db_student = models.Student(
         email=student.email,
         gpa=student.gpa,
@@ -22,6 +26,7 @@ def create_student(db: Session, student: schemas.StudentCreate):
         priority_5=student.priority_5,
         group=student.group,
         completed=student.completed,
+        available=student.available,
     )
     db.add(db_student)
     db.commit()
@@ -48,7 +53,7 @@ def get_courses(db: Session):
 
 
 def get_courses_by_group(db: Session, group: str):
-    return db.query(models.Course).filter(models.Course.groups.any(group)).all()
+    return db.query(models.Course).filter(models.Course.groups.contains('{' + group + '}')).all()
 
 
 def create_course(db: Session, course: schemas.CourseCreate):
@@ -91,3 +96,44 @@ def create_distribution(db: Session, distribution: schemas.DistributionCreate):
     db.commit()
     db.refresh(db_distribution)
     return db_distribution
+
+
+def delete_all_courses(db):
+    db.query(models.Course).delete()
+    db.commit()
+
+
+def delete_all_students(db):
+    db.query(models.Student).delete()
+    db.commit()
+
+
+def delete_all_constraints(db):
+    db.query(models.Constraint).delete()
+    db.commit()
+
+
+def delete_all_distributions(db):
+    db.query(models.Distribution).delete()
+    db.commit()
+
+
+def create_constraint(db: Session, constraint: schemas.ConstraintCreate):
+    db_constraint = models.Constraint(
+        course_codename=constraint.course_codename,
+        student_email=constraint.student_email,
+    )
+    db.add(db_constraint)
+    db.commit()
+    db.refresh(db_constraint)
+    return db_constraint
+
+
+def get_constraints(db: Session):
+    return db.query(models.Constraint).all()
+
+
+def delete_constraint(db: Session, constraint: models.Constraint):
+    db.delete(constraint)
+    db.commit()
+    return constraint

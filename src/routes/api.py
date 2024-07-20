@@ -30,24 +30,78 @@ from io import BytesIO
 from openpyxl.utils.dataframe import dataframe_to_rows
 import json
 from utils.excel_converter import get_excel_distribution, get_excel_template
+from fastapi import UploadFile, File
+from fastapi import UploadFile, File, Depends
+from sqlalchemy.orm import Session
+from src.database import crud, schemas
+from src.database.database import get_db
+
 load_dotenv()
 
 router = APIRouter()
 
 
-@router.post("/upload")
-def upload(file: UploadFile = File(...)):
-    try:
-        file_location = os.path.join('.tmp', file.filename)
-        with open(file_location, 'wb') as f:
-            while contents := file.file.read(1024 * 1024):
-                f.write(contents)
-    except Exception:
-        raise HTTPException(status_code=500, detail="Failed to upload file")
-    finally:
-        file.file.close()
+# @router.post("/upload")
+# def upload(file: UploadFile = File(...)):
+#     try:
+#         file_location = os.path.join('.tmp', file.filename)
+#         with open(file_location, 'wb') as f:
+#             while contents := file.file.read(1024 * 1024):
+#                 f.write(contents)
+#     except Exception:
+#         raise HTTPException(status_code=500, detail="Failed to upload file")
+#     finally:
+#         file.file.close()
+#
+#     return {"message": f"Successfully uploaded {file.filename} to .tmp directory"}
 
-    return {"message": f"Successfully uploaded {file.filename} to .tmp directory"}
+
+@router.post("/upload_table")
+async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_db)):
+    # Load the Excel file into a pandas ExcelFile object
+    xls = pd.ExcelFile(file.file)
+
+    # Load each sheet into a separate DataFrame
+    df_courses = pd.read_excel(xls, 'Courses')
+    df_students = pd.read_excel(xls, 'Students')
+    df_constraints = pd.read_excel(xls, 'Constraints')
+
+    crud.delete_all_courses(db)
+    for i, row in df_courses.iterrows():
+        course_dict = row.to_dict()
+        # Check if 'groups' field is a valid JSON
+        try:
+            course_dict['groups'] = json.loads(course_dict['groups'])
+        except json.JSONDecodeError:
+            # If not a valid JSON, convert it into a list manually
+            course_dict['groups'] = [course_dict['groups']]
+        course = schemas.CourseCreate(**course_dict)
+        course.id = i + 1
+        db_course = crud.get_course_by_id(db, id=course.id)
+        if db_course:
+            crud.delete_course(db, db_course)
+        crud.create_course(db=db, course=course)
+
+    crud.delete_all_constraints(db)
+    for _, row in df_constraints.iterrows():
+        constraint = row.to_dict()
+        constraint = schemas.ConstraintCreate(**constraint)
+        crud.create_constraint(db=db, constraint=constraint)
+
+    crud.delete_all_students(db)
+    for _, row in df_students.iterrows():
+        student = row.to_dict()
+        student['completed'] = json.loads(student['completed'])
+        for constraint in crud.get_constraints(db):
+            if constraint.student_email == student['email']:
+                student['completed'] += [constraint.course_codename]
+        student = schemas.StudentCreate(**student)
+        db_student = crud.get_student_by_email(db, email=student.email)
+        if db_student:
+            crud.delete_student(db, db_student)
+        crud.create_student(db=db, student=student)
+
+    return {"message": "Table uploaded and cells updated successfully"}
 
 
 @router.get("/example_table/")

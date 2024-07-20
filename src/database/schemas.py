@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import NewType
+from typing import NewType, Optional
 
 from pydantic import BaseModel, EmailStr, NonNegativeFloat, PositiveInt
 
@@ -52,6 +52,7 @@ class StudentBase(BaseModel):
     priority_5: CourseCodename
     group: str
     completed: list[CourseCodename]
+    available: Optional[list[CourseCodename]] = []
 
 
 class StudentCreate(StudentBase):
@@ -73,5 +74,19 @@ class DistributionCreate(DistributionBase):
 
 
 class Distribution(DistributionBase):
+    class Config:
+        orm_mode = True
+
+
+class ConstraintBase(BaseModel):
+    course_codename: CourseCodename
+    student_email: str
+
+
+class ConstraintCreate(ConstraintBase):
+    pass
+
+
+class Constraint(ConstraintBase):
     class Config:
         orm_mode = True

@@ -7,6 +7,8 @@ from openpyxl.utils import get_column_letter
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.workbook import Workbook
 
+from database.database import get_db
+
 
 def get_excel_distribution():
     with open('.tmp/d.json', 'r') as f:
@@ -39,7 +41,6 @@ def get_excel_distribution():
         ws_stats.append(["", "", ""])
     wb.save(file_path)
     wb = load_workbook(file_path)
-
     for sheet in wb:
         ws = wb[sheet.title]
         for row in ws.iter_rows():
@@ -63,45 +64,16 @@ def get_excel_distribution():
 
 
 def get_excel_template():
-    courses = pd.DataFrame({
-        "codename": [""],
-        "type": [""],
-        "full_name": [""],
-        "short_name": [""],
-        "description": [""],
-        "instructor": [""],
-        "min_overall": [""],
-        "max_overall": [""],
-        "low_in_group": [""],
-        "high_in_group": [""],
-        "max_in_group": [""],
-        "groups": [""],
-    }, index=[0])
-    students = pd.DataFrame({
-        "email": [""],
-        "gpa": [""],
-        "priority_1": [""],
-        "priority_2": [""],
-        "priority_3": [""],
-        "priority_4": [""],
-        "priority_5": [""],
-        "group": [""],
-        "completed": [""],
-    }, index=[1])
-    constrains = pd.DataFrame({
-        "course_codename": [""],
-        "group": [""],
-    }, index=[2])
-    distributions = pd.DataFrame({
-        "student_email": [""],
-        "course_codename": [""],
-    }, index=[3])
+    db = next(get_db())
+    courses = pd.read_sql_query("SELECT * FROM courses", db.bind)
+    students = pd.read_sql_query("SELECT * FROM students", db.bind)
+    constraints = pd.read_sql_query("SELECT * FROM constraints", db.bind)
+
     file_path = '.tmp/table.xlsx'
     with pd.ExcelWriter(file_path) as writer:
         courses.to_excel(writer, sheet_name='Courses', index=False)
         students.to_excel(writer, sheet_name='Students', index=False)
-        constrains.to_excel(writer, sheet_name='Constrains', index=False)
-        distributions.to_excel(writer, sheet_name='Distributions', index=False)
+        constraints.to_excel(writer, sheet_name='Constraints', index=False)
     wb = load_workbook(file_path)
 
     for sheet in wb:

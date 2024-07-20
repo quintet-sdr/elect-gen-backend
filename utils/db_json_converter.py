@@ -20,7 +20,7 @@ def get_json(db: Session):
         # print(f"Available course codenames for group {student['group']}: {available_course_codenames}")
         completed_course_codenames = student['completed'] if student['completed'] else []
         available = set(available_course_codenames) - set(completed_course_codenames)
-        # print(f"Truly available courses for student {student['email']}: {available}")
+        print(f"Truly available courses for student {student['email']}: {available}")
         available_courses_full_details = [course['codename'] for course in courses_db if
                                           course['codename'] in available]
 

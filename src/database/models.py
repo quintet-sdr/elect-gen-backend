@@ -51,6 +51,7 @@ class Student(Base):
     priority_5 = Column(String)
     group = Column(String)
     completed = Column(ARRAY(String))
+    available = Column(ARRAY(String))
 
     def to_dict(self):
         return {
@@ -62,7 +63,8 @@ class Student(Base):
             "priority_4": self.priority_4,
             "priority_5": self.priority_5,
             "group": self.group,
-            "completed": self.completed
+            "completed": self.completed,
+            "available": self.available
         }
 
 
@@ -77,4 +79,18 @@ class Distribution(Base):
         return {
             "student_email": self.student_email,
             "course_codename": self.course_codename,
+        }
+
+
+class Constraint(Base):
+    __tablename__ = "constraints"
+
+    id = Column(Integer, primary_key=True, index=True)
+    course_codename = Column(String, index=True)
+    student_email = Column(String)
+
+    def to_dict(self):
+        return {
+            "course_codename": self.course_codename,
+            "student_email": self.student_email,
         }

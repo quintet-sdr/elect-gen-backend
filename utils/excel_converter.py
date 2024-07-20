@@ -6,7 +6,7 @@ from openpyxl.styles import Font, Alignment
 from openpyxl.utils import get_column_letter
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.workbook import Workbook
-
+import ast
 from database.database import get_db
 
 
@@ -66,7 +66,9 @@ def get_excel_distribution():
 def get_excel_template():
     db = next(get_db())
     courses = pd.read_sql_query("SELECT * FROM courses", db.bind)
-    students = pd.read_sql_query("SELECT email, gpa, priority_1, priority_2, priority_3, priority_4, priority_5, \"group\", completed, available FROM students", db.bind)
+    students = pd.read_sql_query(
+        "SELECT email, gpa, priority_1, priority_2, priority_3, priority_4, priority_5, \"group\", completed, available FROM students",
+        db.bind)
     constraints = pd.read_sql_query("SELECT id, course_codename, student_email FROM constraints", db.bind)
     for i, row in courses.iterrows():
         row['groups'] = ';'.join(row['groups'])
@@ -77,6 +79,9 @@ def get_excel_template():
                 row['completed'].remove(course)
         row['completed'] = ';'.join(row['completed'])
         row['available'] = ';'.join(row['available'])
+        if len(row['group']) > 1:
+            row['group'] = ';'.join(row['group'][1:-1].split(','))
+            students.at[i, 'group'] = row['group']
         students.at[i, 'completed'] = row['completed']
         students.at[i, 'available'] = row['available']
     file_path = '.tmp/table.xlsx'

@@ -49,7 +49,7 @@ class Student(Base):
     priority_3 = Column(String)
     priority_4 = Column(String)
     priority_5 = Column(String)
-    group = Column(String)
+    group = Column(ARRAY(String))
     completed = Column(ARRAY(String))
     available = Column(ARRAY(String))
 

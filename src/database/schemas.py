@@ -50,7 +50,7 @@ class StudentBase(BaseModel):
     priority_3: CourseCodename
     priority_4: CourseCodename
     priority_5: CourseCodename
-    group: str
+    group: list[str] = []
     completed: list[CourseCodename] = []
     available: list[CourseCodename] = []
 

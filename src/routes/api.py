@@ -84,6 +84,10 @@ async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_d
     crud.delete_all_students(db)
     for _, row in df_students.iterrows():
         student_dict = row.to_dict()
+        if student_dict['group']:
+            student_dict['group'] = str(student_dict['group']).split(';')
+        else:
+            student_dict['group'] = []
         if student_dict['completed']:
             student_dict['completed'] = str(student_dict['completed']).split(';')
         else:
@@ -92,8 +96,10 @@ async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_d
             student_dict['available'] = str(student_dict['available']).split(';')
         else:
             student_dict['available'] = []
-        for course in crud.get_courses_by_group(db, student_dict['group']):
-            student_dict['available'] += [course.codename]
+        print(student_dict['group'])
+        for group in student_dict['group']:
+            for course in crud.get_courses_by_group(db, group):
+                student_dict['available'] += [course.codename]
         for constraint in crud.get_constraints(db):
             if constraint.student_email == student_dict['email'] and constraint.course_codename not in student_dict[
                 'completed']:

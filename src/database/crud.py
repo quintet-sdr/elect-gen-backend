@@ -14,7 +14,7 @@ def get_students(db: Session):
 def create_student(db: Session, student: schemas.StudentCreate):
     available_courses = []
     available_courses += get_courses_by_group(db, student.group)
-    student.available = list(set(available_courses) - set(student.completed))
+    student.available = [course.codename for course in list(set(available_courses) - set(student.completed))]
     print(student.group, available_courses, student.available)
     db_student = models.Student(
         email=student.email,
@@ -53,7 +53,7 @@ def get_courses(db: Session):
 
 
 def get_courses_by_group(db: Session, group: str):
-    return db.query(models.Course).filter(models.Course.groups.contains('{' + group + '}')).all()
+    return db.query(models.Course).filter(models.Course.groups.any(group)).all()
 
 
 def create_course(db: Session, course: schemas.CourseCreate):

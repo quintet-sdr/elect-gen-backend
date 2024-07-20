@@ -58,10 +58,7 @@ router = APIRouter()
 
 @router.post("/upload_table")
 async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_db)):
-    # Load the Excel file into a pandas ExcelFile object
     xls = pd.ExcelFile(file.file)
-
-    # Load each sheet into a separate DataFrame
     df_courses = pd.read_excel(xls, 'Courses')
     df_students = pd.read_excel(xls, 'Students')
     df_constraints = pd.read_excel(xls, 'Constraints')
@@ -69,12 +66,7 @@ async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_d
     crud.delete_all_courses(db)
     for i, row in df_courses.iterrows():
         course_dict = row.to_dict()
-        # Check if 'groups' field is a valid JSON
-        try:
-            course_dict['groups'] = json.loads(course_dict['groups'])
-        except json.JSONDecodeError:
-            # If not a valid JSON, convert it into a list manually
-            course_dict['groups'] = [course_dict['groups']]
+        course_dict['groups'] = course_dict['groups'].split(';')
         course = schemas.CourseCreate(**course_dict)
         course.id = i + 1
         db_course = crud.get_course_by_id(db, id=course.id)
@@ -91,9 +83,16 @@ async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_d
     crud.delete_all_students(db)
     for _, row in df_students.iterrows():
         student = row.to_dict()
-        student['completed'] = json.loads(student['completed'])
+        if student['completed']:
+            student['completed'] = str(student['completed']).split(';')
+        else:
+            student['completed'] = []
+        if student['available']:
+            student['available'] = str(student['available']).split(';')
+        else:
+            student['available'] = []
         for constraint in crud.get_constraints(db):
-            if constraint.student_email == student['email']:
+            if constraint.student_email == student['email'] and constraint.course_codename not in student['completed']:
                 student['completed'] += [constraint.course_codename]
         student = schemas.StudentCreate(**student)
         db_student = crud.get_student_by_email(db, email=student.email)
@@ -109,21 +108,6 @@ def get_table():
     get_excel_template()
     file_path = '.tmp/table.xlsx'
     return FileResponse(file_path, media_type='application/octet-stream', filename='table.xlsx')
-
-
-# @router.get("/tables/")
-# async def get_table(extension: TableExtension) -> None:
-#     raise NotImplementedError
-
-
-# @router.post("/courses/")
-# async def new_course(course: Course) -> None:
-#     raise NotImplementedError
-#
-#
-# @router.post("/students/")
-# async def new_student(student: Student) -> None:
-#     raise NotImplementedError
 
 
 @router.post("/students/", response_model=schemas.Student)

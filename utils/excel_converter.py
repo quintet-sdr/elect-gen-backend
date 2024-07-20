@@ -66,9 +66,19 @@ def get_excel_distribution():
 def get_excel_template():
     db = next(get_db())
     courses = pd.read_sql_query("SELECT * FROM courses", db.bind)
-    students = pd.read_sql_query("SELECT * FROM students", db.bind)
-    constraints = pd.read_sql_query("SELECT * FROM constraints", db.bind)
-
+    students = pd.read_sql_query("SELECT email, gpa, priority_1, priority_2, priority_3, priority_4, priority_5, \"group\", completed, available FROM students", db.bind)
+    constraints = pd.read_sql_query("SELECT id, course_codename, student_email FROM constraints", db.bind)
+    for i, row in courses.iterrows():
+        row['groups'] = ';'.join(row['groups'])
+        courses.at[i, 'groups'] = row['groups']
+    for i, row in students.iterrows():
+        for course in row['completed']:
+            if course == 'nan':
+                row['completed'].remove(course)
+        row['completed'] = ';'.join(row['completed'])
+        row['available'] = ';'.join(row['available'])
+        students.at[i, 'completed'] = row['completed']
+        students.at[i, 'available'] = row['available']
     file_path = '.tmp/table.xlsx'
     with pd.ExcelWriter(file_path) as writer:
         courses.to_excel(writer, sheet_name='Courses', index=False)

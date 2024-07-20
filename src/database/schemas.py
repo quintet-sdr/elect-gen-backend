@@ -51,8 +51,8 @@ class StudentBase(BaseModel):
     priority_4: CourseCodename
     priority_5: CourseCodename
     group: str
-    completed: list[CourseCodename]
-    available: Optional[list[CourseCodename]] = []
+    completed: list[CourseCodename] = []
+    available: list[CourseCodename] = []
 
 
 class StudentCreate(StudentBase):

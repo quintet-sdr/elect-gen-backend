@@ -48,7 +48,6 @@ def get_courses(db: Session):
 
 
 def get_courses_by_group(db: Session, group: str):
-    # Use the PostgreSQL ANY function to check if the specified group is in the groups array of the Course model
     return db.query(models.Course).filter(models.Course.groups.any(group)).all()
 
 

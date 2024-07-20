@@ -1,6 +1,11 @@
+import json
 import subprocess
 
 from fastapi import APIRouter
+from matplotlib import pyplot as plt
+from openpyxl.utils import get_column_letter
+from openpyxl.utils.dataframe import dataframe_to_rows
+
 from src.database.schemas import TableExtension
 
 from fastapi import Depends, HTTPException
@@ -14,15 +19,47 @@ import os
 from os import path
 from src.cli import Args
 from dotenv import load_dotenv
-
+from fastapi import File, UploadFile
+import pandas as pd
+from fastapi.responses import FileResponse
+from openpyxl import load_workbook
+from openpyxl.styles import Font, Alignment
+from openpyxl import Workbook
+from openpyxl.drawing.image import Image
+from io import BytesIO
+from openpyxl.utils.dataframe import dataframe_to_rows
+import json
+from utils.excel_converter import get_excel_distribution, get_excel_template
 load_dotenv()
 
 router = APIRouter()
 
 
-@router.get("/tables/")
-async def get_table(extension: TableExtension) -> None:
-    raise NotImplementedError
+@router.post("/upload")
+def upload(file: UploadFile = File(...)):
+    try:
+        file_location = os.path.join('.tmp', file.filename)
+        with open(file_location, 'wb') as f:
+            while contents := file.file.read(1024 * 1024):
+                f.write(contents)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Failed to upload file")
+    finally:
+        file.file.close()
+
+    return {"message": f"Successfully uploaded {file.filename} to .tmp directory"}
+
+
+@router.get("/example_table/")
+def get_table():
+    get_excel_template()
+    file_path = '.tmp/table.xlsx'
+    return FileResponse(file_path, media_type='application/octet-stream', filename='table.xlsx')
+
+
+# @router.get("/tables/")
+# async def get_table(extension: TableExtension) -> None:
+#     raise NotImplementedError
 
 
 # @router.post("/courses/")
@@ -76,4 +113,8 @@ async def read_distribution(db: Session = Depends(get_db)):
         command, shell=True, capture_output=True, text=True, encoding="utf-8"
     )
     print(result.stdout)
-    return {"message": "Success"}
+    if result.returncode != 0:
+        raise HTTPException(status_code=500, detail=result.stderr)
+    get_excel_distribution()
+    file_path = '.tmp/distributions.xlsx'
+    return FileResponse(file_path, media_type='application/octet-stream', filename='distributions.xlsx')

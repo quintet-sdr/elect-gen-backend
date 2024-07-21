@@ -1,7 +1,8 @@
 import json
 import subprocess
+from typing import Annotated
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Form
 from matplotlib import pyplot as plt
 from openpyxl.utils import get_column_letter
 from openpyxl.utils.dataframe import dataframe_to_rows
@@ -56,9 +57,8 @@ router = APIRouter()
 #
 #     return {"message": f"Successfully uploaded {file.filename} to .tmp directory"}
 
-
 @router.post("/upload_table")
-async def upload_table(file: UploadFile = File(...), db: Session = Depends(get_db)):
+async def upload_table(file: Annotated[UploadFile, File()], db: Session = Depends(get_db)):
     xls = pd.ExcelFile(file.file)
     df_courses = pd.read_excel(xls, 'Courses')
     df_students = pd.read_excel(xls, 'Students')

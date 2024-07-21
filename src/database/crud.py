@@ -48,11 +48,10 @@ def get_courses(db: Session):
     return db.query(models.Course).all()
 
 
-from sqlalchemy import cast, Text, ARRAY
+from sqlalchemy import cast, ARRAY, String
 
 def get_courses_by_group(db: Session, group: str):
-    return db.query(models.Course).filter(models.Course.groups.op('@>')(cast([group], ARRAY(Text)))).all()
-
+    return db.query(models.Course).filter(models.Course.groups.op('@>')(cast([group], ARRAY(String)))).all()
 
 def create_course(db: Session, course: schemas.CourseCreate):
     db_course = models.Course(

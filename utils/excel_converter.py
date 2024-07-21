@@ -79,9 +79,8 @@ def get_excel_template():
                 row['completed'].remove(course)
         row['completed'] = ';'.join(row['completed'])
         row['available'] = ';'.join(row['available'])
-        if len(row['group']) > 1:
-            row['group'] = ';'.join(row['group'][1:-1].split(','))
-            students.at[i, 'group'] = row['group']
+        row['group'] = ';'.join(row['group'])
+        students.at[i, 'group'] = row['group']
         students.at[i, 'completed'] = row['completed']
         students.at[i, 'available'] = row['available']
     file_path = '.tmp/table.xlsx'

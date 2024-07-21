@@ -56,7 +56,7 @@ router = APIRouter()
 #     return {"message": f"Successfully uploaded {'.tmp/input_table' + type} to .tmp directory"}
 
 
-@router.post("/upload-table")
+@router.post("/upload-table/")
 async def upload_table(file: Annotated[bytes, File()],  name: str, db: Session = Depends(get_db)):
     type = '.' + name.split('.')[-1]
     print(type)
@@ -77,8 +77,7 @@ async def upload_table(file: Annotated[bytes, File()],  name: str, db: Session =
         course_dict = row.to_dict()
         course_dict['groups'] = course_dict['groups'].split(';')
         course = schemas.CourseCreate(**course_dict)
-        course.id = i + 1
-        db_course = crud.get_course_by_id(db, id=course.id)
+        db_course = crud.get_course_by_codename(db, codename=course.codename)
         if db_course:
             crud.delete_course(db, db_course)
         crud.create_course(db=db, course=course)
@@ -152,7 +151,7 @@ async def read_students(db: Session = Depends(get_db)):
 
 @router.post("/courses/", response_model=schemas.Course)
 async def create_course(course: schemas.CourseCreate, db: Session = Depends(get_db)):
-    db_course = crud.get_course_by_id(db, id=course.id)
+    db_course = crud.get_course_by_codename(db, codename=course.codename)
     if db_course:
         crud.delete_course(db, db_course)
     new_course = crud.create_course(db=db, course=course)

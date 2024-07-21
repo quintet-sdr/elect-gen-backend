@@ -18,7 +18,6 @@ CourseCodename = NewType("CourseCodename", str)
 
 
 class CourseBase(BaseModel):
-    id: PositiveInt = 0
     codename: CourseCodename
     type: CourseType
     full_name: str

@@ -7,7 +7,6 @@ from .database import Base
 class Course(Base):
     __tablename__ = "courses"
 
-    id = Column(Integer, index=True, autoincrement=True)
     codename = Column(String, primary_key=True, index=True)
     type = Column(String)
     full_name = Column(String)

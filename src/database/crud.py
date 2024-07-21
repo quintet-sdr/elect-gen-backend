@@ -37,9 +37,6 @@ def delete_student(db: Session, student: models.Student):
     return student
 
 
-def get_course_by_id(db: Session, id: int):
-    return db.query(models.Course).filter(models.Course.id == id).first()
-
 
 def get_course_by_codename(db: Session, codename: str):
     return db.query(models.Course).filter(models.Course.codename == codename).first()
@@ -55,7 +52,6 @@ def get_courses_by_group(db: Session, group: str):
 
 def create_course(db: Session, course: schemas.CourseCreate):
     db_course = models.Course(
-        id=course.id,
         codename=course.codename,
         type=course.type,
         full_name=course.full_name,

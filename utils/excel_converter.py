@@ -141,7 +141,6 @@ def get_excel_example():
         'available': [''],
     })
     constrains = pd.DataFrame({
-        'id': [1],
         'course_codename': ['EXAMPLE'],
         'student_email': ['a.b@innopolis.university']
     })

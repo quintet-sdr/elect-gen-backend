@@ -9,9 +9,15 @@ from src.database import models
 from src.database.crud import get_courses_by_group
 
 
-def get_json(db: Session):
-    students_db = [student.to_dict() for student in db.query(models.Student).all()]
-    courses_db = [course.to_dict() for course in db.query(models.Course).all()]
+def get_json(db: Session, elective: str):
+    if elective == 'hum':
+        students_db = [student.to_dict() for student in db.query(models.StudentHum).all()]
+        courses_db = [course.to_dict() for course in db.query(models.CourseHum).all()]
+    elif elective == 'tech':
+        students_db = [student.to_dict() for student in db.query(models.StudentTech).all()]
+        courses_db = [course.to_dict() for course in db.query(models.CourseTech).all()]
+    else:
+        raise ValueError("Invalid elective type")
     students_json = []
     for student in students_db:
         available_courses = get_courses_by_group(db, student["group"])

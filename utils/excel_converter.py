@@ -63,13 +63,13 @@ def get_excel_distribution():
     wb.save(file_path)
 
 
-def get_excel_current():
+def get_excel_current_hum():
     db = next(get_db())
-    courses = pd.read_sql_query("SELECT * FROM courses", db.bind)
+    courses = pd.read_sql_query("SELECT * FROM courses_hum", db.bind)
     students = pd.read_sql_query(
-        "SELECT email, gpa, priority_1, priority_2, priority_3, priority_4, priority_5, \"group\", completed, available FROM students",
+        "SELECT email, gpa, priority_1, priority_2, priority_3, priority_4, priority_5, \"group\", completed, available FROM students_hum",
         db.bind)
-    constraints = pd.read_sql_query("SELECT id, course_codename, student_email FROM constraints", db.bind)
+    constraints = pd.read_sql_query("SELECT id, course_codename, student_email FROM constraints_hum", db.bind)
     for i, row in courses.iterrows():
         row['groups'] = ';'.join(row['groups'])
         courses.at[i, 'groups'] = row['groups']
@@ -83,7 +83,56 @@ def get_excel_current():
         students.at[i, 'group'] = row['group']
         students.at[i, 'completed'] = row['completed']
         students.at[i, 'available'] = row['available']
-    file_path = '.tmp/table.xlsx'
+    file_path = '.tmp/table_hum.xlsx'
+    with pd.ExcelWriter(file_path) as writer:
+        courses.to_excel(writer, sheet_name='Courses', index=False)
+        students.to_excel(writer, sheet_name='Students', index=False)
+        constraints.to_excel(writer, sheet_name='Constraints', index=False)
+    wb = load_workbook(file_path)
+
+    for sheet in wb:
+        ws = wb[sheet.title]
+        for row in ws.iter_rows():
+            for cell in row:
+                cell.font = Font(name='Calibri', size=11)
+                cell.alignment = Alignment(horizontal='center', vertical='center')
+
+        for column in ws.columns:
+            max_length = 0
+            column = [cell for cell in column]
+            for cell in column:
+                try:
+                    if len(str(cell.value)) > max_length:
+                        max_length = len(cell.value)
+                except:
+                    pass
+            adjusted_width = (max_length + 2)
+            ws.column_dimensions[get_column_letter(column[0].column)].width = adjusted_width
+
+    wb.save(file_path)
+
+
+def get_excel_current_tech():
+    db = next(get_db())
+    courses = pd.read_sql_query("SELECT * FROM courses_tech", db.bind)
+    students = pd.read_sql_query(
+        "SELECT email, gpa, priority_1, priority_2, priority_3, priority_4, priority_5, \"group\", completed, available FROM students_tech",
+        db.bind)
+    constraints = pd.read_sql_query("SELECT id, course_codename, student_email FROM constraints_tech", db.bind)
+    for i, row in courses.iterrows():
+        row['groups'] = ';'.join(row['groups'])
+        courses.at[i, 'groups'] = row['groups']
+    for i, row in students.iterrows():
+        for course in row['completed']:
+            if course == 'nan':
+                row['completed'].remove(course)
+        row['completed'] = ';'.join(row['completed'])
+        row['available'] = ';'.join(row['available'])
+        row['group'] = ';'.join(row['group'])
+        students.at[i, 'group'] = row['group']
+        students.at[i, 'completed'] = row['completed']
+        students.at[i, 'available'] = row['available']
+    file_path = '.tmp/table_tech.xlsx'
     with pd.ExcelWriter(file_path) as writer:
         courses.to_excel(writer, sheet_name='Courses', index=False)
         students.to_excel(writer, sheet_name='Students', index=False)

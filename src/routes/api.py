@@ -68,7 +68,7 @@ async def get_all_courses_groups(db: Session = Depends(get_db)):
 async def upload_table(file: Annotated[bytes, File()], name: str, db: Session = Depends(get_db)):
     type = '.' + name.split('.')[-1]
     print(type)
-    with open('.tmp/input_table1' + type, 'wb') as f:
+    with open('.tmp/input_table' + type, 'wb') as f:
         f.write(file)
     if type == '.xlsx':
         xls = pd.ExcelFile('.tmp/input_table' + type)

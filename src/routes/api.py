@@ -57,10 +57,17 @@ router = APIRouter()
 
 
 @router.post("/upload-table")
-async def upload_table(file: Annotated[bytes, File()], db: Session = Depends(get_db)):
-    with open('.tmp/input_table.xlsx', 'wb') as f:
+async def upload_table(file: Annotated[bytes, File()],  name: str, db: Session = Depends(get_db)):
+    type = '.' + name.split('.')[-1]
+    print(type)
+    with open('.tmp/input_table1' + type, 'wb') as f:
         f.write(file)
-    xls = pd.ExcelFile('.tmp/input_table.xlsx')
+    if type == '.xlsx':
+        xls = pd.ExcelFile('.tmp/input_table' + type)
+    elif type == '.ods':
+        xls = pd.read_excel('.tmp/input_table' + type, engine='odf')
+    else:
+        return {"message": "File format not supported"}
     df_courses = pd.read_excel(xls, 'Courses')
     df_students = pd.read_excel(xls, 'Students')
     df_constraints = pd.read_excel(xls, 'Constraints')

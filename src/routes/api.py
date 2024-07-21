@@ -54,10 +54,18 @@ router = APIRouter()
 #     df_students = pd.read_excel(xls, 'Students')
 #     df_constraints = pd.read_excel(xls, 'Constraints')
 #     return {"message": f"Successfully uploaded {'.tmp/input_table' + type} to .tmp directory"}
+@router.get("/courses-groups/")
+async def get_all_courses_groups(db: Session = Depends(get_db)):
+    courses = crud.get_courses(db)
+    groups = []
+    for course in courses:
+        for group in course.groups:
+            groups.append(group)
+    return list(set(groups))
 
 
 @router.post("/upload-table/")
-async def upload_table(file: Annotated[bytes, File()],  name: str, db: Session = Depends(get_db)):
+async def upload_table(file: Annotated[bytes, File()], name: str, db: Session = Depends(get_db)):
     type = '.' + name.split('.')[-1]
     print(type)
     with open('.tmp/input_table1' + type, 'wb') as f:

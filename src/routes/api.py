@@ -44,15 +44,16 @@ load_dotenv()
 router = APIRouter()
 
 
-# @router.post("/upload")
-# def upload(file: Annotated[bytes, File()]):
-#     with open('tmp.xlsx', 'wb') as f:
-#         f.write(file)
-#     xls = pd.ExcelFile('tmp.xlsx')
-#     df_courses = pd.read_excel(xls, 'Courses')
-#     df_students = pd.read_excel(xls, 'Students')
-#     df_constraints = pd.read_excel(xls, 'Constraints')
-#     return {"message": f"Successfully uploaded {file} to .tmp directory"}
+@router.post("/upload")
+def upload(file: Annotated[bytes, File()], name: str):
+    type = '.' + name.split('.')[-1]
+    with open('.tmp/input_table1' + type, 'wb') as f:
+        f.write(file)
+    xls = pd.ExcelFile('.tmp/input_table' + type)
+    df_courses = pd.read_excel(xls, 'Courses')
+    df_students = pd.read_excel(xls, 'Students')
+    df_constraints = pd.read_excel(xls, 'Constraints')
+    return {"message": f"Successfully uploaded {'.tmp/input_table' + type} to .tmp directory"}
 
 
 @router.post("/upload_table")

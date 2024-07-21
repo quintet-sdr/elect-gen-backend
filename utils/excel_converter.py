@@ -15,10 +15,17 @@ def get_excel_distribution():
         data = json.load(f)
     with open('.tmp/s.json', 'r') as f:
         students_data = json.load(f)
-    students_priorities = {
-        student['email']: {student[f'priority_{i}']: i for i in range(1, 6)}
-        for student in students_data
-    }
+    students_priorities = {}
+    for student in students_data:
+        email = student['email']
+        seen_priorities = set()
+        priorities = {}
+        for i in range(1, 6):
+            course = student[f'priority_{i}']
+            if course not in seen_priorities:
+                priorities[course] = i
+                seen_priorities.add(course)
+        students_priorities[email] = priorities
     file_path = '.tmp/distributions.xlsx'
     wb = Workbook()
     del wb['Sheet']

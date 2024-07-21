@@ -63,7 +63,7 @@ def get_excel_distribution():
     wb.save(file_path)
 
 
-def get_excel_template():
+def get_excel_current():
     db = next(get_db())
     courses = pd.read_sql_query("SELECT * FROM courses", db.bind)
     students = pd.read_sql_query(
@@ -88,6 +88,68 @@ def get_excel_template():
         courses.to_excel(writer, sheet_name='Courses', index=False)
         students.to_excel(writer, sheet_name='Students', index=False)
         constraints.to_excel(writer, sheet_name='Constraints', index=False)
+    wb = load_workbook(file_path)
+
+    for sheet in wb:
+        ws = wb[sheet.title]
+        for row in ws.iter_rows():
+            for cell in row:
+                cell.font = Font(name='Calibri', size=11)
+                cell.alignment = Alignment(horizontal='center', vertical='center')
+
+        for column in ws.columns:
+            max_length = 0
+            column = [cell for cell in column]
+            for cell in column:
+                try:
+                    if len(str(cell.value)) > max_length:
+                        max_length = len(cell.value)
+                except:
+                    pass
+            adjusted_width = (max_length + 2)
+            ws.column_dimensions[get_column_letter(column[0].column)].width = adjusted_width
+
+    wb.save(file_path)
+
+
+def get_excel_example():
+    courses = pd.DataFrame({
+        'id': [1],
+        'codename': ['EXAMPLE1'],
+        'type': ['hum'],
+        'full_name': ['EXAMPLE COURSE'],
+        'short_name': ['EXMPL'],
+        'description': ['This course is EXAMPLE.'],
+        'instructor': ['Bob'],
+        'min_overall': [0],
+        'max_overall': [1],
+        'low_in_group': [2],
+        'high_in_group': [3],
+        'max_in_group': [4],
+        'groups': ['gr_TEST']
+    })
+    students = pd.DataFrame({
+        'email': ['a.b@innopolis.university'],
+        'gpa': [0.0],
+        'priority_1': ['EXAMPLE1'],
+        'priority_2': ['EXAMPLE2'],
+        'priority_3': ['EXAMPLE3'],
+        'priority_4': ['EXAMPLE4'],
+        'priority_5': ['EXAMPLE5'],
+        'group': ['gr_TEST'],
+        'completed': [''],
+        'available': [''],
+    })
+    constrains = pd.DataFrame({
+        'id': [1],
+        'course_codename': ['EXAMPLE'],
+        'student_email': ['a.b@innopolis.university']
+    })
+    file_path = '.tmp/example.xlsx'
+    with pd.ExcelWriter(file_path) as writer:
+        courses.to_excel(writer, sheet_name='Courses', index=False)
+        students.to_excel(writer, sheet_name='Students', index=False)
+        constrains.to_excel(writer, sheet_name='Constraints', index=False)
     wb = load_workbook(file_path)
 
     for sheet in wb:

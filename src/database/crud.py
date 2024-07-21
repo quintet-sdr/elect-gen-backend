@@ -1,4 +1,5 @@
 from sqlalchemy.orm import Session
+from sqlalchemy import cast, ARRAY, String
 
 from . import models, schemas
 
@@ -48,10 +49,9 @@ def get_courses(db: Session):
     return db.query(models.Course).all()
 
 
-from sqlalchemy import cast, ARRAY, String
-
 def get_courses_by_group(db: Session, group: str):
     return db.query(models.Course).filter(models.Course.groups.op('@>')(cast([group], ARRAY(String)))).all()
+
 
 def create_course(db: Session, course: schemas.CourseCreate):
     db_course = models.Course(
@@ -96,21 +96,29 @@ def create_distribution(db: Session, distribution: schemas.DistributionCreate):
 
 
 def delete_all_courses(db):
+    if db.query(models.Course).count() == 0:
+        return
     db.query(models.Course).delete()
     db.commit()
 
 
 def delete_all_students(db):
+    if db.query(models.Student).count() == 0:
+        return
     db.query(models.Student).delete()
     db.commit()
 
 
 def delete_all_constraints(db):
+    if db.query(models.Constraint).count() == 0:
+        return
     db.query(models.Constraint).delete()
     db.commit()
 
 
 def delete_all_distributions(db):
+    if db.query(models.Distribution).count() == 0:
+        return
     db.query(models.Distribution).delete()
     db.commit()
 

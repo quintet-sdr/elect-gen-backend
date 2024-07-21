@@ -32,7 +32,7 @@ from openpyxl.drawing.image import Image
 from io import BytesIO
 from openpyxl.utils.dataframe import dataframe_to_rows
 import json
-from utils.excel_converter import get_excel_distribution, get_excel_template
+from utils.excel_converter import get_excel_distribution, get_excel_example, get_excel_current
 from fastapi import UploadFile, File
 from fastapi import UploadFile, File, Depends
 from sqlalchemy.orm import Session
@@ -56,7 +56,7 @@ router = APIRouter()
 #     return {"message": f"Successfully uploaded {'.tmp/input_table' + type} to .tmp directory"}
 
 
-@router.post("/upload_table")
+@router.post("/upload-table")
 async def upload_table(file: Annotated[bytes, File()], db: Session = Depends(get_db)):
     with open('.tmp/input_table.xlsx', 'wb') as f:
         f.write(file)
@@ -115,11 +115,18 @@ async def upload_table(file: Annotated[bytes, File()], db: Session = Depends(get
     return {"message": "Table uploaded and cells updated successfully"}
 
 
-@router.get("/example_table/")
+@router.get("/get-current-table/")
 def get_table():
-    get_excel_template()
+    get_excel_current()
     file_path = '.tmp/table.xlsx'
     return FileResponse(file_path, media_type='application/octet-stream', filename='table.xlsx')
+
+
+@router.get("/get-example-table/")
+def get_example_table():
+    get_excel_example()
+    file_path = '.tmp/example.xlsx'
+    return FileResponse(file_path, media_type='application/octet-stream', filename='example.xlsx')
 
 
 @router.post("/students/", response_model=schemas.Student)

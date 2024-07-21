@@ -25,6 +25,7 @@ def dev() -> None:
 
 def start() -> None:
     args = Args().parse_args()
+    os.environ["CORE"] = str(args.core)
     execute(
         [
             venv("uvicorn"),

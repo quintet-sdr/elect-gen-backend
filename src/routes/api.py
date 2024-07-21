@@ -1,3 +1,4 @@
+import base64
 import json
 import subprocess
 from typing import Annotated
@@ -44,22 +45,21 @@ router = APIRouter()
 
 
 # @router.post("/upload")
-# def upload(file: UploadFile = File(...)):
-#     try:
-#         file_location = os.path.join('.tmp', file.filename)
-#         with open(file_location, 'wb') as f:
-#             while contents := file.file.read(1024 * 1024):
-#                 f.write(contents)
-#     except Exception:
-#         raise HTTPException(status_code=500, detail="Failed to upload file")
-#     finally:
-#         file.file.close()
-#
-#     return {"message": f"Successfully uploaded {file.filename} to .tmp directory"}
+# def upload(file: Annotated[bytes, File()]):
+#     with open('tmp.xlsx', 'wb') as f:
+#         f.write(file)
+#     xls = pd.ExcelFile('tmp.xlsx')
+#     df_courses = pd.read_excel(xls, 'Courses')
+#     df_students = pd.read_excel(xls, 'Students')
+#     df_constraints = pd.read_excel(xls, 'Constraints')
+#     return {"message": f"Successfully uploaded {file} to .tmp directory"}
+
 
 @router.post("/upload_table")
-async def upload_table(file: Annotated[UploadFile, File()], db: Session = Depends(get_db)):
-    xls = pd.ExcelFile(file.file)
+async def upload_table(file: Annotated[bytes, File()], db: Session = Depends(get_db)):
+    with open('.tmp/input_table.xlsx', 'wb') as f:
+        f.write(file)
+    xls = pd.ExcelFile(file)
     df_courses = pd.read_excel(xls, 'Courses')
     df_students = pd.read_excel(xls, 'Students')
     df_constraints = pd.read_excel(xls, 'Constraints')

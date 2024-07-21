@@ -38,6 +38,7 @@ numpy = "^2.0.0"
 matplotlib = "^3.9.1"
 seaborn = "^0.13.2"
 python-dotenv = "^1.0.1"
+python-multipart = "^0.0.9"
 
 
 [tool.poetry.group.dev.dependencies]

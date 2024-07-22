@@ -33,8 +33,8 @@ from openpyxl.drawing.image import Image
 from io import BytesIO
 from openpyxl.utils.dataframe import dataframe_to_rows
 import json
-from utils.excel_converter import get_excel_distribution, get_excel_example, get_excel_current_tech, \
-    get_excel_current_hum
+from utils.excel_converter import get_excel_distribution, get_excel_current_tech, \
+    get_excel_current_hum, get_excel_example_tech, get_excel_example_hum
 from fastapi import UploadFile, File
 from fastapi import UploadFile, File, Depends
 from sqlalchemy.orm import Session
@@ -124,14 +124,30 @@ def get_table(elective: str = 'hum'):
 
 
 @router.get("/get-example-table/")
-def get_example_table():
-    get_excel_example()
-    file_path = '.tmp/example.xlsx'
-    return FileResponse(file_path, media_type='application/octet-stream', filename='example.xlsx')
+def get_example_table(elective: str = 'hum'):
+    if elective == 'hum':
+        get_excel_example_hum()
+    elif elective == 'tech':
+        get_excel_example_tech()
+    else:
+        raise HTTPException(status_code=400, detail="Invalid elective type")
+
+    file_path = f'.tmp/example_{elective}.xlsx'
+    return FileResponse(file_path, media_type='application/octet-stream', filename=f'.tmp/example_{elective}.xlsx')
+
+
+@router.get("/get-student/")
+async def get_student_by_email(email: str, elective: str, db: Session = Depends(get_db)):
+    if elective == 'hum':
+        student = crud.get_student_by_email(db, email, elective)
+    elif elective == 'tech':
+        student = crud.get_student_by_email(db, email, elective)
+    else:
+        raise HTTPException(status_code=400, detail="Invalid elective type")
+    return student
 
 
 @router.post("/students/", response_model=schemas.Student)
-@router.post("/students/")
 async def create_student(student: schemas.StudentCreate, elective: str, db: Session = Depends(get_db)):
     if elective == 'hum':
         db_student = crud.get_student_by_email(db, email=student.email, elective='hum')
@@ -158,7 +174,6 @@ async def read_students(elective: str, db: Session = Depends(get_db)):
     return students
 
 
-@router.post("/courses/", response_model=schemas.Course)
 @router.post("/courses/", response_model=schemas.Course)
 async def create_course(course: schemas.CourseCreate, elective: str, db: Session = Depends(get_db)):
     if elective == 'hum':

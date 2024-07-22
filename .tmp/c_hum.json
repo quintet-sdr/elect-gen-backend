@@ -7,10 +7,10 @@
         "description": "desc1",
         "instructor": "tmp1",
         "min_overall": 10,
-        "max_overall": 80,
+        "max_overall": 60,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -24,10 +24,10 @@
         "description": "desc2",
         "instructor": "tmp2",
         "min_overall": 10,
-        "max_overall": 60,
+        "max_overall": 40,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -41,10 +41,10 @@
         "description": "desc3",
         "instructor": "tmp3",
         "min_overall": 10,
-        "max_overall": 40,
+        "max_overall": 120,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -58,10 +58,10 @@
         "description": "desc4",
         "instructor": "tmp4",
         "min_overall": 10,
-        "max_overall": 40,
+        "max_overall": 30,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -75,10 +75,10 @@
         "description": "desc5",
         "instructor": "tmp5",
         "min_overall": 10,
-        "max_overall": 120,
+        "max_overall": 80,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -92,10 +92,10 @@
         "description": "desc6",
         "instructor": "tmp6",
         "min_overall": 10,
-        "max_overall": 40,
+        "max_overall": 30,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1"
         ]
@@ -108,10 +108,10 @@
         "description": "desc7",
         "instructor": "tmp7",
         "min_overall": 10,
-        "max_overall": 40,
+        "max_overall": 30,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -125,10 +125,10 @@
         "description": "desc8",
         "instructor": "tmp8",
         "min_overall": 10,
-        "max_overall": 40,
+        "max_overall": 160,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -142,10 +142,10 @@
         "description": "desc9",
         "instructor": "tmp9",
         "min_overall": 10,
-        "max_overall": 28,
+        "max_overall": 30,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -159,10 +159,10 @@
         "description": "desc10",
         "instructor": "tmp10",
         "min_overall": 10,
-        "max_overall": 40,
+        "max_overall": 30,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1"
         ]
@@ -175,10 +175,10 @@
         "description": "desc11",
         "instructor": "tmp11",
         "min_overall": 10,
-        "max_overall": 40,
-        "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "max_overall": 30,
+        "low_in_group": 10,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -192,10 +192,10 @@
         "description": "desc12",
         "instructor": "tmp12",
         "min_overall": 10,
-        "max_overall": 40,
+        "max_overall": 30,
         "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -209,10 +209,10 @@
         "description": "desc13",
         "instructor": "tmp13",
         "min_overall": 10,
-        "max_overall": 40,
-        "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "max_overall": 30,
+        "low_in_group": 10,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1"
         ]
@@ -225,10 +225,10 @@
         "description": "desc14",
         "instructor": "tmp14",
         "min_overall": 10,
-        "max_overall": 40,
-        "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "max_overall": 30,
+        "low_in_group": 10,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-1",
             "year-2"
@@ -242,10 +242,10 @@
         "description": "desc15",
         "instructor": "tmp15",
         "min_overall": 10,
-        "max_overall": 40,
-        "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "max_overall": 30,
+        "low_in_group": 10,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-2"
         ]
@@ -258,10 +258,10 @@
         "description": "desc16",
         "instructor": "tmp16",
         "min_overall": 10,
-        "max_overall": 40,
-        "low_in_group": 15,
-        "high_in_group": 30,
-        "max_in_group": 32,
+        "max_overall": 30,
+        "low_in_group": 10,
+        "high_in_group": 25,
+        "max_in_group": 30,
         "groups": [
             "year-2"
         ]

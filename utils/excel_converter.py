@@ -10,10 +10,10 @@ import ast
 from database.database import get_db
 
 
-def get_excel_distribution():
-    with open('.tmp/d.json', 'r') as f:
+def get_excel_distribution(elective):
+    with open(f'.tmp/d_{elective}.json', 'r') as f:
         data = json.load(f)
-    with open('.tmp/s.json', 'r') as f:
+    with open(f'.tmp/s_{elective}.json', 'r') as f:
         students_data = json.load(f)
     students_priorities = {}
     for student in students_data:
@@ -26,7 +26,7 @@ def get_excel_distribution():
                 priorities[course] = i
                 seen_priorities.add(course)
         students_priorities[email] = priorities
-    file_path = '.tmp/distributions.xlsx'
+    file_path = f'.tmp/distributions_{elective}.xlsx'
     wb = Workbook()
     del wb['Sheet']
     ws_stats = wb.create_sheet('Overall Statistics', 0)

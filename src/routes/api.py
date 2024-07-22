@@ -191,12 +191,12 @@ async def read_distribution(elective: str, db: Session = Depends(get_db)):
     if elective == "hum":
         get_json(db, elective="hum")
         print("Reading distributions for hum")
-        core = os.getenv("CORE_HUM")
+        core = os.getenv("CORE")
         command = f'python {os.path.join(str(core), "algorithm_cli.py")} --courses .tmp/c_hum.json --students .tmp/s_hum.json --output .tmp/d_hum.json'
     elif elective == "tech":
         get_json(db, elective="tech")
         print("Reading distributions for tech")
-        core = os.getenv("CORE_TECH")
+        core = os.getenv("CORE")
         command = f'python {os.path.join(str(core), "algorithm_cli.py")} --courses .tmp/c_tech.json --students .tmp/s_tech.json --output .tmp/d_tech.json'
     else:
         raise HTTPException(status_code=400, detail="Invalid elective type")
@@ -211,5 +211,5 @@ async def read_distribution(elective: str, db: Session = Depends(get_db)):
 
     # Adjust the file path based on elective
     file_path = f'.tmp/distributions_{elective}.xlsx'
-    get_excel_distribution()
+    get_excel_distribution(elective)
     return FileResponse(file_path, media_type='application/octet-stream', filename=f'distributions_{elective}.xlsx')

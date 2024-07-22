@@ -47,14 +47,14 @@ router = APIRouter()
 
 
 @router.get("/courses-groups/")
-async def get_all_courses_groups(db: Session = Depends(get_db), elective: str = 'hum'):
+async def get_all_courses_groups(db: Session = Depends(get_db), elective: str = 'hum') -> list[str]:
     courses = get_courses(db, elective=elective)
-    courses_groups = {course.codename: course.groups for course in courses}
+    courses_groups = [course.codename for course in courses]
     return courses_groups
 
 
 @router.post("/upload-table/")
-async def upload_table(file: Annotated[bytes, File()], name: str, db: Session = Depends(get_db), elective: str = 'hum'):
+async def upload_table(file: Annotated[bytes, File()], name: str, db: Session = Depends(get_db)):
     type = '.' + name.split('.')[-1]
     with open('.tmp/input_table' + type, 'wb') as f:
         f.write(file)
@@ -68,8 +68,7 @@ async def upload_table(file: Annotated[bytes, File()], name: str, db: Session = 
     df_courses = pd.read_excel(xls, 'Courses')
     df_students = pd.read_excel(xls, 'Students')
     df_constraints = pd.read_excel(xls, 'Constraints')
-
-    # Delete existing data based on elective
+    elective = df_courses['type'][1]
     crud.delete_all_courses(db, elective=elective)
     crud.delete_all_students(db, elective=elective)
     crud.delete_all_constraints(db, elective=elective)

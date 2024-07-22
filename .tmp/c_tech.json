@@ -12,8 +12,8 @@
         "high_in_group": 33,
         "max_in_group": 35,
         "groups": [
-            "year-2",
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -29,8 +29,8 @@
         "high_in_group": 25,
         "max_in_group": 25,
         "groups": [
-            "year-2",
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -46,6 +46,7 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
+            "year-1",
             "year-2"
         ]
     },
@@ -62,6 +63,7 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
+            "year-1",
             "year-2"
         ]
     },
@@ -78,8 +80,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-2",
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -95,6 +97,7 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
+            "year-1",
             "year-2"
         ]
     },
@@ -111,6 +114,7 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
+            "year-1",
             "year-2"
         ]
     },
@@ -127,8 +131,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-2",
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -144,8 +148,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-2",
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -161,8 +165,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-2",
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -178,8 +182,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-2",
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -195,7 +199,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -211,7 +216,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -227,7 +233,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     },
     {
@@ -243,7 +250,8 @@
         "high_in_group": 25,
         "max_in_group": 30,
         "groups": [
-            "year-1"
+            "year-1",
+            "year-2"
         ]
     }
 ]

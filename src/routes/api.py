@@ -201,8 +201,59 @@ async def read_courses(elective: str, db: Session = Depends(get_db)):
     return courses
 
 
-@router.get("/distributions/")
-async def read_distribution(elective: str, db: Session = Depends(get_db)):
+@router.post("/distributions/")
+async def read_distribution(file: Annotated[bytes, File()], name: str, db: Session = Depends(get_db)):
+    type = '.' + name.split('.')[-1]
+    with open('.tmp/input_table' + type, 'wb') as f:
+        f.write(file)
+    if type == '.xlsx':
+        xls = pd.ExcelFile('.tmp/input_table' + type)
+    elif type == '.ods':
+        xls = pd.read_excel('.tmp/input_table' + type, engine='odf')
+    else:
+        return {"message": "File format not supported"}
+
+    df_courses = pd.read_excel(xls, 'Courses')
+    df_students = pd.read_excel(xls, 'Students')
+    df_constraints = pd.read_excel(xls, 'Constraints')
+    elective = df_courses['type'][1]
+    crud.delete_all_courses(db, elective=elective)
+    crud.delete_all_students(db, elective=elective)
+    crud.delete_all_constraints(db, elective=elective)
+
+    # Process and insert courses
+    for i, row in df_courses.iterrows():
+        course_dict = row.to_dict()
+        course_dict['groups'] = course_dict['groups'].split(';')
+        if elective == "hum":
+            courseHum = schemas.CourseCreate(**course_dict)
+            crud.create_course_hum(db=db, courseHum=courseHum)
+        elif elective == "tech":
+            courseTech = schemas.CourseCreate(**course_dict)
+            crud.create_course_tech(db=db, courseTech=courseTech)
+
+    # Process and insert constraints
+    for _, row in df_constraints.iterrows():
+        constraint_dict = row.to_dict()
+        if elective == "hum":
+            constraintHum = schemas.ConstraintCreate(**constraint_dict)
+            crud.create_constraint_hum(db=db, constraintHum=constraintHum)
+        elif elective == "tech":
+            constraintTech = schemas.ConstraintCreate(**constraint_dict)
+            crud.create_constraint_tech(db=db, constraintTech=constraintTech)
+
+    # Process and insert students
+    for _, row in df_students.iterrows():
+        student_dict = row.to_dict()
+        student_dict['group'] = str(student_dict.get('group', '')).split(';')
+        student_dict['completed'] = str(student_dict.get('completed', '')).split(';')
+        student_dict['available'] = str(student_dict.get('available', '')).split(';')
+        if elective == "hum":
+            studentHum = schemas.StudentCreate(**student_dict)
+            crud.create_student_hum(db=db, studentHum=studentHum)
+        elif elective == "tech":
+            studentTech = schemas.StudentCreate(**student_dict)
+            crud.create_student_tech(db=db, studentTech=studentTech)
     if elective == "hum":
         get_json(db, elective="hum")
         print("Reading distributions for hum")
@@ -224,7 +275,6 @@ async def read_distribution(elective: str, db: Session = Depends(get_db)):
     if result.returncode != 0:
         raise HTTPException(status_code=500, detail=result.stderr)
 
-    # Adjust the file path based on elective
     file_path = f'.tmp/distributions_{elective}.xlsx'
     get_excel_distribution(elective)
     return FileResponse(file_path, media_type='application/octet-stream', filename=f'distributions_{elective}.xlsx')

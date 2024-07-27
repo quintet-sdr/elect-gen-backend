@@ -63,7 +63,7 @@ class StudentHum(Base):
             "priority_5": self.priority_5,
             "group": self.group,
             "completed": self.completed,
-            "available": self.available
+            "available": self.available,
         }
 
 
@@ -93,7 +93,6 @@ class ConstraintHum(Base):
             "course_codename": self.course_codename,
             "student_email": self.student_email,
         }
-
 
 
 class CourseTech(Base):
@@ -155,7 +154,7 @@ class StudentTech(Base):
             "priority_5": self.priority_5,
             "group": self.group,
             "completed": self.completed,
-            "available": self.available
+            "available": self.available,
         }
 
 

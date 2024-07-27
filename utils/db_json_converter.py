@@ -3,18 +3,17 @@ from sqlalchemy.orm import Session
 from src.database import models
 from src.database.crud import get_courses_by_group
 
-import json
-from sqlalchemy.orm import Session
-from src.database import models
-from src.database.crud import get_courses_by_group
-
 
 def get_json(db: Session, elective: str):
-    if elective == 'hum':
-        students_db = [student.to_dict() for student in db.query(models.StudentHum).all()]
+    if elective == "hum":
+        students_db = [
+            student.to_dict() for student in db.query(models.StudentHum).all()
+        ]
         courses_db = [course.to_dict() for course in db.query(models.CourseHum).all()]
-    elif elective == 'tech':
-        students_db = [student.to_dict() for student in db.query(models.StudentTech).all()]
+    elif elective == "tech":
+        students_db = [
+            student.to_dict() for student in db.query(models.StudentTech).all()
+        ]
         courses_db = [course.to_dict() for course in db.query(models.CourseTech).all()]
     else:
         raise ValueError("Invalid elective type")
@@ -22,13 +21,18 @@ def get_json(db: Session, elective: str):
     for student in students_db:
         available_courses = get_courses_by_group(db, student["group"], elective)
         available_courses_dicts = [course.to_dict() for course in available_courses]
-        available_course_codenames = [course['codename'] for course in available_courses_dicts]
-        # print(f"Available course codenames for group {student['group']}: {available_course_codenames}")
-        completed_course_codenames = student['completed'] if student['completed'] else []
+        available_course_codenames = [
+            course["codename"] for course in available_courses_dicts
+        ]
+        completed_course_codenames = (
+            student["completed"] if student["completed"] else []
+        )
         available = set(available_course_codenames) - set(completed_course_codenames)
-        # print(f"Truly available courses for student {student['email']}: {available}")
-        available_courses_full_details = [course['codename'] for course in courses_db if
-                                          course['codename'] in available]
+        available_courses_full_details = [
+            course["codename"]
+            for course in courses_db
+            if course["codename"] in available
+        ]
 
         student_json = {
             "email": student["email"],

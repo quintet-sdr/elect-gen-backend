@@ -5,18 +5,24 @@ from . import models, schemas
 
 
 def get_student_by_email(db: Session, email: str, elective: str):
-    if elective == 'hum':
-        return db.query(models.StudentHum).filter(models.StudentHum.email == email).first()
-    elif elective == 'tech':
-        return db.query(models.StudentTech).filter(models.StudentTech.email == email).first()
+    if elective == "hum":
+        return (
+            db.query(models.StudentHum).filter(models.StudentHum.email == email).first()
+        )
+    elif elective == "tech":
+        return (
+            db.query(models.StudentTech)
+            .filter(models.StudentTech.email == email)
+            .first()
+        )
     else:
         raise ValueError("Invalid elective type")
 
 
 def get_students(db: Session, elective: str):
-    if elective == 'hum':
+    if elective == "hum":
         return db.query(models.StudentHum).all()
-    elif elective == 'tech':
+    elif elective == "tech":
         return db.query(models.StudentTech).all()
     else:
         raise ValueError("Invalid elective type")
@@ -89,28 +95,44 @@ def get_courses_tech(db: Session):
 
 
 def get_course_by_codename(db: Session, codename: str, elective: str):
-    if elective == 'hum':
-        return db.query(models.CourseHum).filter(models.CourseHum.codename == codename).first()
-    elif elective == 'tech':
-        return db.query(models.CourseTech).filter(models.CourseTech.codename == codename).first()
+    if elective == "hum":
+        return (
+            db.query(models.CourseHum)
+            .filter(models.CourseHum.codename == codename)
+            .first()
+        )
+    elif elective == "tech":
+        return (
+            db.query(models.CourseTech)
+            .filter(models.CourseTech.codename == codename)
+            .first()
+        )
     else:
         raise ValueError("Invalid elective type")
 
 
 def get_courses(db: Session, elective: str):
-    if elective == 'hum':
+    if elective == "hum":
         return db.query(models.CourseHum).all()
-    elif elective == 'tech':
+    elif elective == "tech":
         return db.query(models.CourseTech).all()
     else:
         raise ValueError("Invalid elective type")
 
 
 def get_courses_by_group(db: Session, group: str, elective: str):
-    if elective == 'hum':
-        return db.query(models.CourseHum).filter(models.CourseHum.groups.op('@>')(cast([group], ARRAY(String)))).all()
-    elif elective == 'tech':
-        return db.query(models.CourseTech).filter(models.CourseTech.groups.op('@>')(cast([group], ARRAY(String)))).all()
+    if elective == "hum":
+        return (
+            db.query(models.CourseHum)
+            .filter(models.CourseHum.groups.op("@>")(cast([group], ARRAY(String))))
+            .all()
+        )
+    elif elective == "tech":
+        return (
+            db.query(models.CourseTech)
+            .filter(models.CourseTech.groups.op("@>")(cast([group], ARRAY(String))))
+            .all()
+        )
     else:
         raise ValueError("Invalid elective type")
 
@@ -168,12 +190,12 @@ def delete_course_tech(db: Session, courseTech: models.CourseTech):
 
 
 def delete_all_courses(db, elective):
-    if elective == 'hum':
+    if elective == "hum":
         if db.query(models.CourseHum).count() == 0:
             return
         db.query(models.CourseHum).delete()
         db.commit()
-    elif elective == 'tech':
+    elif elective == "tech":
         if db.query(models.CourseTech).count() == 0:
             return
         db.query(models.CourseTech).delete()
@@ -183,12 +205,12 @@ def delete_all_courses(db, elective):
 
 
 def delete_all_students(db, elective):
-    if elective == 'hum':
+    if elective == "hum":
         if db.query(models.StudentHum).count() == 0:
             return
         db.query(models.StudentHum).delete()
         db.commit()
-    elif elective == 'tech':
+    elif elective == "tech":
         if db.query(models.StudentTech).count() == 0:
             return
         db.query(models.StudentTech).delete()
@@ -198,12 +220,12 @@ def delete_all_students(db, elective):
 
 
 def delete_all_constraints(db, elective):
-    if elective == 'hum':
+    if elective == "hum":
         if db.query(models.ConstraintHum).count() == 0:
             return
         db.query(models.ConstraintHum).delete()
         db.commit()
-    elif elective == 'tech':
+    elif elective == "tech":
         if db.query(models.ConstraintTech).count() == 0:
             return
         db.query(models.ConstraintTech).delete()
@@ -235,9 +257,9 @@ def create_constraint_tech(db: Session, constraintTech: schemas.ConstraintCreate
 
 
 def get_constraints(db: Session, elective: str):
-    if elective == 'hum':
+    if elective == "hum":
         return db.query(models.ConstraintHum).all()
-    elif elective == 'tech':
+    elif elective == "tech":
         return db.query(models.ConstraintTech).all()
     else:
         raise ValueError("Invalid elective type")

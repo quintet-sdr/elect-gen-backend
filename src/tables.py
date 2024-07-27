@@ -1,3 +1,5 @@
+# Deprecated file. Will be removed in the future.
+
 from pandas import DataFrame  # pyright: ignore[reportMissingTypeStubs]
 from pydantic import BaseModel
 
